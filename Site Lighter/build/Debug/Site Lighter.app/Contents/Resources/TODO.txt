@@ -1,0 +1,71 @@
+iWebewi Milestones
+*	0.1 First working command line version
+		- OK ftp download
+		- OK ftp upload
+		- OK lightify call
+		- OK Lightify Upload
+		- OK ruby controller
+		- OK download ftp files
+		- OK lightify search and replace
+*	0.2 First very simple interface version
+		- OK simple applescript executer
+	0.3 Mac Interface
+		- OK configuration storage
+		- OK multisite
+		- OK site screenshot storage
+		- OK run
+		- OK process progress display
+		- OK working version
+	0.3.1 Mac Eerst functie complete versie
+		- OK title replace code
+		- OK header replace code
+		- OK footer replace code
+		- OK Interface updates
+	0.3.2 Mac testing verder uitgewerkt
+		- OK ftp test 
+		- OK close app with last window
+		- OK try to guest directory by site name
+		- OK make screenshot work always
+		- OK Status berichten
+	0.3.3 Mac testing verder uitgewerkt
+		- OK coredata migration
+		- 1/2 status berichten met de juiste timing
+		- OK log implementation
+		- 1/2 google analytics code
+		- sep meta tags
+		- lightbox overlay slider
+		- SKIPPED support i386 using macruby 0.9
+		- edit internal page title inside table box
+    0.4 Objective-C rewrite
+        - complete rewrite to Objective-C
+        - OK Renaming to Site Lighter
+        - Preferences witg debug
+	0.5 Mac
+		- Page level optimizations 
+		- read iweb configuration
+		- replace php code with macruby
+		- view log implementation
+		- google analytics tab
+			- open analytics
+		- plugin framework
+		- improve lightbox
+			- eigen tab
+			- transparantie instellen
+		- keywords met plus min symbol
+		- social networking/add this/etc...
+		- like button
+	0.6 Official Name & Documentation
+		- name 
+			OK Site Lighter
+            SKIPPED iWeb Helper
+            SKIPPED iWeb Site Improver
+			SKIPPED iWeb Cherry
+			SKIPPED iWeb Creamer
+		- new icon
+		- interface redesign
+	0.7 Selected Beta (Nina, Diana...)
+	0.8 localdisk/sftp & iDisk support/iCloud
+	1.0 Upload Mac
+		- Store? 
+		- Price?
+		- Website

@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E8B04FC150CF04B00E8EDFE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8B04FB150CF04B00E8EDFE /* Cocoa.framework */; };
+		3E8B0506150CF04B00E8EDFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0504150CF04B00E8EDFE /* InfoPlist.strings */; };
+		3E8B0508150CF04B00E8EDFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B0507150CF04B00E8EDFE /* main.m */; };
+		3E8B050C150CF04B00E8EDFE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B050A150CF04B00E8EDFE /* Credits.rtf */; };
+		3E8B050F150CF04B00E8EDFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B050E150CF04B00E8EDFE /* AppDelegate.m */; };
+		3E8B0512150CF04B00E8EDFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0510150CF04B00E8EDFE /* MainMenu.xib */; };
+		3E8B0515150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B0513150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld */; };
+		3E8B051C150CF08C00E8EDFE /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B051B150CF08C00E8EDFE /* TODO.txt */; };
+		3E8B0522150CF23500E8EDFE /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B0520150CF23500E8EDFE /* Preferences.m */; };
+		3E8B0523150CF23500E8EDFE /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0521150CF23500E8EDFE /* Preferences.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E8B04F7150CF04B00E8EDFE /* Site Lighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Site Lighter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8B04FB150CF04B00E8EDFE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3E8B04FE150CF04B00E8EDFE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3E8B04FF150CF04B00E8EDFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3E8B0500150CF04B00E8EDFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3E8B0503150CF04B00E8EDFE /* Site Lighter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Site Lighter-Info.plist"; sourceTree = "<group>"; };
+		3E8B0505150CF04B00E8EDFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3E8B0507150CF04B00E8EDFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E8B0509150CF04B00E8EDFE /* Site Lighter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Site Lighter-Prefix.pch"; sourceTree = "<group>"; };
+		3E8B050B150CF04B00E8EDFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3E8B050D150CF04B00E8EDFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E8B050E150CF04B00E8EDFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E8B0511150CF04B00E8EDFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3E8B0514150CF04B00E8EDFE /* Site_Lighter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Site_Lighter.xcdatamodel; sourceTree = "<group>"; };
+		3E8B051B150CF08C00E8EDFE /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		3E8B051F150CF23500E8EDFE /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
+		3E8B0520150CF23500E8EDFE /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
+		3E8B0521150CF23500E8EDFE /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E8B04F4150CF04B00E8EDFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8B04FC150CF04B00E8EDFE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E8B04EC150CF04A00E8EDFE = {
+			isa = PBXGroup;
+			children = (
+				3E8B0501150CF04B00E8EDFE /* Site Lighter */,
+				3E8B04FA150CF04B00E8EDFE /* Frameworks */,
+				3E8B04F8150CF04B00E8EDFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E8B04F8150CF04B00E8EDFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B04F7150CF04B00E8EDFE /* Site Lighter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E8B04FA150CF04B00E8EDFE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B04FB150CF04B00E8EDFE /* Cocoa.framework */,
+				3E8B04FD150CF04B00E8EDFE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E8B04FD150CF04B00E8EDFE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B04FE150CF04B00E8EDFE /* AppKit.framework */,
+				3E8B04FF150CF04B00E8EDFE /* CoreData.framework */,
+				3E8B0500150CF04B00E8EDFE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3E8B0501150CF04B00E8EDFE /* Site Lighter */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B0525150CF26000E8EDFE /* Views */,
+				3E8B0524150CF24100E8EDFE /* Classes */,
+				3E8B0513150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld */,
+				3E8B0502150CF04B00E8EDFE /* Supporting Files */,
+			);
+			path = "Site Lighter";
+			sourceTree = "<group>";
+		};
+		3E8B0502150CF04B00E8EDFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B051B150CF08C00E8EDFE /* TODO.txt */,
+				3E8B0503150CF04B00E8EDFE /* Site Lighter-Info.plist */,
+				3E8B0504150CF04B00E8EDFE /* InfoPlist.strings */,
+				3E8B0507150CF04B00E8EDFE /* main.m */,
+				3E8B0509150CF04B00E8EDFE /* Site Lighter-Prefix.pch */,
+				3E8B050A150CF04B00E8EDFE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3E8B0524150CF24100E8EDFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B051F150CF23500E8EDFE /* Preferences.h */,
+				3E8B0520150CF23500E8EDFE /* Preferences.m */,
+				3E8B050D150CF04B00E8EDFE /* AppDelegate.h */,
+				3E8B050E150CF04B00E8EDFE /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		3E8B0525150CF26000E8EDFE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E8B0510150CF04B00E8EDFE /* MainMenu.xib */,
+				3E8B0521150CF23500E8EDFE /* Preferences.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E8B04F6150CF04B00E8EDFE /* Site Lighter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E8B0518150CF04B00E8EDFE /* Build configuration list for PBXNativeTarget "Site Lighter" */;
+			buildPhases = (
+				3E8B04F3150CF04B00E8EDFE /* Sources */,
+				3E8B04F4150CF04B00E8EDFE /* Frameworks */,
+				3E8B04F5150CF04B00E8EDFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Site Lighter";
+			productName = "Site Lighter";
+			productReference = 3E8B04F7150CF04B00E8EDFE /* Site Lighter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E8B04EE150CF04A00E8EDFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Lingewoud b.v.";
+			};
+			buildConfigurationList = 3E8B04F1150CF04A00E8EDFE /* Build configuration list for PBXProject "Site Lighter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E8B04EC150CF04A00E8EDFE;
+			productRefGroup = 3E8B04F8150CF04B00E8EDFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E8B04F6150CF04B00E8EDFE /* Site Lighter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E8B04F5150CF04B00E8EDFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8B0506150CF04B00E8EDFE /* InfoPlist.strings in Resources */,
+				3E8B050C150CF04B00E8EDFE /* Credits.rtf in Resources */,
+				3E8B0512150CF04B00E8EDFE /* MainMenu.xib in Resources */,
+				3E8B051C150CF08C00E8EDFE /* TODO.txt in Resources */,
+				3E8B0523150CF23500E8EDFE /* Preferences.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E8B04F3150CF04B00E8EDFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8B0508150CF04B00E8EDFE /* main.m in Sources */,
+				3E8B050F150CF04B00E8EDFE /* AppDelegate.m in Sources */,
+				3E8B0515150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld in Sources */,
+				3E8B0522150CF23500E8EDFE /* Preferences.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E8B0504150CF04B00E8EDFE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8B0505150CF04B00E8EDFE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3E8B050A150CF04B00E8EDFE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8B050B150CF04B00E8EDFE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3E8B0510150CF04B00E8EDFE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E8B0511150CF04B00E8EDFE /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E8B0516150CF04B00E8EDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3E8B0517150CF04B00E8EDFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3E8B0519150CF04B00E8EDFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Site Lighter/Site Lighter-Prefix.pch";
+				INFOPLIST_FILE = "Site Lighter/Site Lighter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3E8B051A150CF04B00E8EDFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Site Lighter/Site Lighter-Prefix.pch";
+				INFOPLIST_FILE = "Site Lighter/Site Lighter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E8B04F1150CF04A00E8EDFE /* Build configuration list for PBXProject "Site Lighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8B0516150CF04B00E8EDFE /* Debug */,
+				3E8B0517150CF04B00E8EDFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E8B0518150CF04B00E8EDFE /* Build configuration list for PBXNativeTarget "Site Lighter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E8B0519150CF04B00E8EDFE /* Debug */,
+				3E8B051A150CF04B00E8EDFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3E8B0513150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3E8B0514150CF04B00E8EDFE /* Site_Lighter.xcdatamodel */,
+			);
+			currentVersion = 3E8B0514150CF04B00E8EDFE /* Site_Lighter.xcdatamodel */;
+			path = Site_Lighter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3E8B04EE150CF04A00E8EDFE /* Project object */;
+}
