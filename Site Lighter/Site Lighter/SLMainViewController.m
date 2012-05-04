@@ -16,7 +16,7 @@
 @implementation SLMainViewController
 
 @synthesize sitesTable;
-//@synthesize mainView;
+@synthesize sitesArrayController;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -36,6 +36,17 @@
     [SLSite defaultSite];
 
     self.sitesTable.delegate = self;
+}
+
+- (void) tableViewSelectionDidChange:(NSNotification *)notification{
+    NSTableView* table = [notification object];
+    NSInteger selection = table.selectedRow;
+    NSArray* sites = [self.sitesArrayController arrangedObjects];
+    
+    SLSite * site = [sites objectAtIndex:selection];
+    [[NSApp delegate] setValue:site forKey: @"selectedSite"];
+    
+    NSLog(@"%@",site);
 }
 
 @end

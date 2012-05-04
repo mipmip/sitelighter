@@ -11,6 +11,8 @@
 @interface SLMainViewController : NSViewController <NSTableViewDelegate>
 
 @property (retain) IBOutlet NSTableView* sitesTable;
+@property (retain) IBOutlet NSArrayController* sitesArrayController;
+
 //@property (retain) IBOutlet NSView* mainView;
 
 @end
