@@ -3,22 +3,31 @@ v5
 r1
 cCheck dependencies
 cProcessInfoPlistFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Info.plist" "Site Lighter/Site Lighter-Info.plist"
-cDataModelVersionCompile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Site_Lighter.xcdatamodeld"
-cProcessPCH "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch.pth" "Site Lighter/Site Lighter-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cDataModelVersionCompile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/../Site_Lighter.xcdatamodeld"
+cProcessPCH "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch.pth" "Site Lighter/Site Lighter-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLSite.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLSite.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLMainViewController.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLMainViewController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cLd "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/MacOS/Site Lighter" normal x86_64
 cCopyStringsFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/en.lproj/InfoPlist.strings" "Site Lighter/en.lproj/InfoPlist.strings"
 cCpResource "Site Lighter/en.lproj/Credits.rtf" "build/Debug/Site Lighter.app/Contents/Resources/en.lproj/Credits.rtf"
 cCompileXIB "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib"
 cCpResource "Site Lighter/TODO.txt" "build/Debug/Site Lighter.app/Contents/Resources/TODO.txt"
 cCompileXIB "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.xib"
+cCopyTiffFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Green Ball.tiff" "Site Lighter/Green Ball.tiff"
+cCopyTiffFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Linkback Green.tiff" "Site Lighter/Linkback Green.tiff"
+cCpResource "Site Lighter/plus-8.png" "build/Debug/Site Lighter.app/Contents/Resources/plus-8.png"
+cCpResource "Site Lighter/minus-8.png" "build/Debug/Site Lighter.app/Contents/Resources/minus-8.png"
+cCopyTiffFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/LinkBack.tiff" "Site Lighter/LinkBack.tiff"
+cCopyTiffFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Play.tiff" "Site Lighter/Play.tiff"
+cCpResource sitelighter.icns "build/Debug/Site Lighter.app/Contents/Resources/sitelighter.icns"
 cTouch "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app"
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk
-c000000004F58AB3B00000000000000EE
-t1331211067
+c000000004F79606000000000000000EE
+t1333354592
 s238
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
@@ -26,15 +35,35 @@ c000000004F4F2B1C0000000000002470
 t1330588444
 s9328
 
-N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/AppDelegate.m
-c000000004F5CBC250000000000001F71
-t1331477541
-s8049
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/../Site_Lighter.xcdatamodeld
+c000000004F7EA10200000000000000AA
+t1333698818
+s170
 
-N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/MainMenu.xib
-c000000004D9B8C060000000000045828
-t1302039558
-s284712
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/AppDelegate.m
+c000000004FA3F99800000000000020FD
+t1336146328
+s8445
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Green Ball.tiff
+c00000000429F29260000000000004098
+t1117727014
+s16536
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/LinkBack.tiff
+c0000000043CBD37E0000000000004994
+t1137431422
+s18836
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Linkback Green.tiff
+c0000000043DCEB98000000000000428C
+t1138551704
+s17036
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Play.tiff
+c00000000431B4A7A0000000000004994
+t1125862010
+s18836
 
 N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.m
 c000000004F5CBC4E00000000000002C0
@@ -42,24 +71,29 @@ t1331477582
 s704
 
 N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.xib
-c000000004F5CBAB500000000000018C5
-t1331477173
-s6341
+c000000004F5CBD0D00000000000031AC
+t1331477773
+s12716
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLMainViewController.m
+c000000004FA3FB0700000000000002D8
+t1336146695
+s728
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLSite.m
+c000000004F7EA5330000000000000587
+t1333699891
+s1415
 
 N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Site Lighter-Prefix.pch
 c000000004F5CB8CB000000000000009B
 t1331476683
 s155
 
-N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Site_Lighter.xcdatamodeld
-c000000004F5CB8CB0000000000000088
-t1331476683
-s136
-
 N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/TODO.txt
-c000000004F5CBA900000000000000791
-t1331477136
-s1937
+c000000004F5CBE220000000000000794
+t1331478050
+s1940
 
 N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/Credits.rtf
 c000000004F5CB8CB00000000000001B4
@@ -72,14 +106,24 @@ t1331476683
 s45
 
 N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib
-c000000004F5CBC6E0000000000058350
-t1331477614
-s361296
+c000000004FA3F97F000000000003B46D
+t1336146303
+s242797
 
 N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/main.m
 c000000004F5CB8CB00000000000000FD
 t1331476683
 s253
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/minus-8.png
+c0000000047B8EAD4000000000000004B
+t1203301076
+s75
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/plus-8.png
+c0000000047B8EACD0000000000000052
+t1203301069
+s82
 
 N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app
 t2
@@ -97,7 +141,19 @@ N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/C
 t2
 s0
 
-N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/MainMenu.nib
+N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Green Ball.tiff
+t2
+s0
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/LinkBack.tiff
+t2
+s0
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Linkback Green.tiff
+t2
+s0
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Play.tiff
 t2
 s0
 
@@ -125,6 +181,18 @@ N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/C
 t2
 s0
 
+N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/minus-8.png
+t2
+s0
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/plus-8.png
+t2
+s0
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/sitelighter.icns
+t2
+s0
+
 N/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.o
 t2
 s0
@@ -133,23 +201,36 @@ N/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug
 t2
 s0
 
+N/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLMainViewController.o
+t2
+s0
+
+N/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLSite.o
+t2
+s0
+
 N/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Site Lighter.LinkFileList
-c000000004F5CBC6F000000000000018E
-t1331477615
-s398
+c000000004FA3FB4F00000000000002A0
+t1336146767
+s672
 
 N/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.o
 t2
 s0
 
-N/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch.pth
+N/Users/pim/github/local/SiteLighter/Site Lighter/sitelighter.icns
+c000000004F7EAF96000000000002DC44
+t1333702550
+s187460
+
+N/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch.pth
 t2
 s0
 
 NSite Lighter/Site Lighter-Info.plist
-c000000004F5CB8CB00000000000004A9
-t1331476683
-s1193
+c000000004F7EAFA800000000000004B9
+t1333702568
+s1209
 
 CBuild AST from "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/AppDelegate.m"
 r0
@@ -157,16 +238,22 @@ r0
 CBuild AST from "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.m"
 r0
 
+CBuild AST from "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLMainViewController.m"
+r0
+
+CBuild AST from "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLSite.m"
+r0
+
 CBuild AST from "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/main.m"
 r0
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesfe467beff30cb541^3942c6eff30cb541^---0#1#0#--18"Check dependencies36"673E842A-2543-401C-9B70-037DA1C48595-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciescf84cece3254b541^2aa808cf3254b541^---0#1#0#--18"Check dependencies36"175B36B5-0DF4-478A-9E4C-BBEDEB9BDC39-
 
 CCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s353170423.825203
-e353170424.306950
+s357839570.079807
+e357839570.293546
 r1
 xCompileC
 xbuild/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.o
@@ -175,11 +262,11 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/AppDelegate.mb971d3f7f30cb541^b7994ef8f30cb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/AppDelegate.m0000000000000000^3035"CompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.o" "Site Lighter/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -include "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch" -MMD -MT dependencies -MF "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.d" --serialize-diagnostics "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/AppDelegate.m" -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.o"36"83DF71A3-2A2A-4F23-B062-2C3466203E9D-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/AppDelegate.m44a214d23254b541^cd5c4cd23254b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/AppDelegate.m0000000000000000^3035"CompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.o" "Site Lighter/AppDelegate.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -include "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch" -MMD -MT dependencies -MF "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.d" --serialize-diagnostics "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/AppDelegate.m" -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/AppDelegate.o"36"F908491B-E95A-4D20-B79B-7B5E01BCC0B2-
 
 CCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s353170423.825198
-e353170424.289081
+s357839570.079891
+e357839570.218294
 r1
 xCompileC
 xbuild/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.o
@@ -188,11 +275,37 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.m5a68d3f7f30cb541^f8fb49f8f30cb541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Preferences.m0000000000000000^3035"CompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.o" "Site Lighter/Preferences.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -include "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch" -MMD -MT dependencies -MF "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.d" --serialize-diagnostics "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.m" -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.o"36"F410B7CB-8E3A-4EAA-B2BB-B438ED0F3A12-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.mf1a114d23254b541^f0e037d23254b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Preferences.m0000000000000000^3035"CompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.o" "Site Lighter/Preferences.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -include "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch" -MMD -MT dependencies -MF "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.d" --serialize-diagnostics "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.m" -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Preferences.o"36"6ABEC3B2-A8F2-41F8-98A1-7553B6F6D3C5-
+
+CCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLMainViewController.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLMainViewController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357839570.186659
+e357839570.299459
+r1
+xCompileC
+xbuild/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLMainViewController.o
+x/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLMainViewController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLMainViewController.m4b0230d23254b541^564752d23254b541^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/SLMainViewController.m0000000000000000^3089"CompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLMainViewController.o" "Site Lighter/SLMainViewController.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -include "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch" -MMD -MT dependencies -MF "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLMainViewController.d" --serialize-diagnostics "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLMainViewController.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLMainViewController.m" -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLMainViewController.o"36"652274F5-EE39-4E0E-97C8-5118E316F652-
+
+CCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLSite.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLSite.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357839570.079779
+e357839570.215622
+r1
+xCompileC
+xbuild/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLSite.o
+x/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLSite.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLSite.m98a214d23254b541^ea3f37d23254b541^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/SLSite.m0000000000000000^3005"CompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLSite.o" "Site Lighter/SLSite.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -include "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch" -MMD -MT dependencies -MF "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLSite.d" --serialize-diagnostics "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLSite.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/SLSite.m" -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/SLSite.o"36"8B474CBE-1E82-4FBB-9F68-102F2D24C4DF-
 
 CCompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.o" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s353170423.825187
-e353170424.285993
+s357839570.079766
+e357839570.185074
 r1
 xCompileC
 xbuild/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.o
@@ -201,107 +314,165 @@ xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/main.m1570d3f7f30cb541^d25649f8f30cb541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/main.m0000000000000000^2993"CompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.o" "Site Lighter/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -include "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch" -MMD -MT dependencies -MF "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/main.m" -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.o"36"DD027825-FF02-4A7C-9D50-DB6B56D8ACE8-
-
-CCompileXIB "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/MainMenu.xib"
-r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/main.m1ec614d23254b541^eeee31d23254b541^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/main.m0000000000000000^2993"CompileC "build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.o" "Site Lighter/main.m" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -include "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch" -MMD -MT dependencies -MF "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.d" --serialize-diagnostics "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/main.m" -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/main.o"36"C964BC57-5D40-4E25-90CB-66466873569A-
 
 CCompileXIB "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.xib"
-s353170425.606314
-e353170429.027324
+s357839570.722531
+e357839573.480175
 r1
 xCompileXIB
 x/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compiling /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.xib554e9bf9f30cb541^a91407fdf30cb541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Preferences.xib0000000000000000^628"CompileXIB "Site Lighter/Preferences.xib"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Preferences.nib" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"9E4C5B8E-1E59-45EA-AB6E-D8663EEE7622-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compiling /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.xib990eb9d23254b541^07ec7ad53254b541^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Preferences.xib0000000000000000^628"CompileXIB "Site Lighter/Preferences.xib"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Preferences.nib" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Preferences.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"9953BAFE-B1DC-4FDF-A43A-737A46F1A2EA-
 
 CCompileXIB "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib"
-s353170425.548683
-e353170430.711448
+s357839570.718805
+e357839573.633964
 r1
 xCompileXIB
 x/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib
-o/* com.apple.ibtool.document.notices */
-o/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib:540: note: View is clipping its content [13]
 o/* com.apple.ibtool.document.warnings */
 o/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib:536: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compiling /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xibac8e8cf9f30cb541^902eb6fef30cb541^-449"/* com.apple.ibtool.document.notices *//Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib:540: note: View is clipping its content [13]/* com.apple.ibtool.document.warnings *//Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib:536: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]2(21%IDEActivityLogMessage2@28"View is clipping its content-353170430#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@103"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/en.lproj/MainMenu.xib0000000000000000^539#18446744073709551615#539#18446744073709551615#18446744073709551615#0#15"Clipped Content--2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar353170430#18446744073709551615#0#-1#-3@103"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/en.lproj/MainMenu.xib0000000000000000^535#18446744073709551615#535#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/en.lproj/MainMenu.xib0000000000000000^646"CompileXIB "Site Lighter/en.lproj/MainMenu.xib"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/en.lproj/MainMenu.nib" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"541B90A4-F272-462F-AB02-9722F85AC953-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compiling /Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib051ab8d23254b541^dc4ba2d53254b541^-280"/* com.apple.ibtool.document.warnings *//Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib:536: warning: Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations) [9]1(21%IDEActivityLogMessage2@136"Content rectangle not entirely on screen with the menu bar (May not be completely visible for all screen resolutions and configurations)58"Content rectangle not entirely on screen with the menu bar357839573#18446744073709551615#0#-1#-23%DVTTextDocumentLocation3@103"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/en.lproj/MainMenu.xib0000000000000000^535#18446744073709551615#535#18446744073709551615#18446744073709551615#0#25"Unsupported Configuration--0#0#0#-19%DVTDocumentLocation4@103"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/en.lproj/MainMenu.xib0000000000000000^646"CompileXIB "Site Lighter/en.lproj/MainMenu.xib"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/en.lproj/MainMenu.nib" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/MainMenu.xib" --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk36"E5E5B543-9822-43A7-BF50-353E9E7B0282-
 
 CCopyStringsFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/en.lproj/InfoPlist.strings" "Site Lighter/en.lproj/InfoPlist.strings"
-s353170425.511288
-e353170425.548428
+s357839570.718499
+e357839570.797222
 r1
 xCopyStringsFile
 x/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/en.lproj/InfoPlist.strings
 xSite Lighter/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy Site Lighter/en.lproj/InfoPlist.strings6dff82f9f30cb541^c7658cf9f30cb541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/en.lproj/InfoPlist.strings0000000000000000^436"CopyStringsFile "build/Debug/Site Lighter.app/Contents/Resources/en.lproj/InfoPlist.strings" "Site Lighter/en.lproj/InfoPlist.strings"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/en.lproj" -- "Site Lighter/en.lproj/InfoPlist.strings"36"129A97A8-26F0-487C-8334-6C30C120EAB2-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Copy Site Lighter/en.lproj/InfoPlist.stringsa111b8d23254b541^39d3ccd23254b541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/en.lproj/InfoPlist.strings0000000000000000^436"CopyStringsFile "build/Debug/Site Lighter.app/Contents/Resources/en.lproj/InfoPlist.strings" "Site Lighter/en.lproj/InfoPlist.strings"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/en.lproj" -- "Site Lighter/en.lproj/InfoPlist.strings"36"9C23C2E5-2AB6-4DE7-B4E4-E58F1C1AC940-
+
+CCopyTiffFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Green Ball.tiff" "Site Lighter/Green Ball.tiff"
+s357839570.725978
+e357839570.800720
+r1
+xCopyTiffFile
+x/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Green Ball.tiff
+xSite Lighter/Green Ball.tiff
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection33"Copy Site Lighter/Green Ball.tiff94fbb9d23254b541^b4e5ccd23254b541^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Green%20Ball.tiff0000000000000000^331"CopyTiffFile "build/Debug/Site Lighter.app/Contents/Resources/Green Ball.tiff" "Site Lighter/Green Ball.tiff"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copyTiff --outdir "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources" -- "Site Lighter/Green Ball.tiff"36"84AFD2D8-9D5C-4BF6-940D-60D99C0F61B6-
+
+CCopyTiffFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/LinkBack.tiff" "Site Lighter/LinkBack.tiff"
+s357839570.844518
+e357839570.858397
+r1
+xCopyTiffFile
+x/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/LinkBack.tiff
+xSite Lighter/LinkBack.tiff
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Copy Site Lighter/LinkBack.tiff0e4ed8d23254b541^e5d3dbd23254b541^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/LinkBack.tiff0000000000000000^325"CopyTiffFile "build/Debug/Site Lighter.app/Contents/Resources/LinkBack.tiff" "Site Lighter/LinkBack.tiff"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copyTiff --outdir "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources" -- "Site Lighter/LinkBack.tiff"36"F92FA938-D894-4D86-A8A1-D2BB52B62507-
+
+CCopyTiffFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Linkback Green.tiff" "Site Lighter/Linkback Green.tiff"
+s357839570.832503
+e357839570.841784
+r1
+xCopyTiffFile
+x/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Linkback Green.tiff
+xSite Lighter/Linkback Green.tiff
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy Site Lighter/Linkback Green.tiffe23fd5d23254b541^da90d7d23254b541^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Linkback%20Green.tiff0000000000000000^343"CopyTiffFile "build/Debug/Site Lighter.app/Contents/Resources/Linkback Green.tiff" "Site Lighter/Linkback Green.tiff"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copyTiff --outdir "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources" -- "Site Lighter/Linkback Green.tiff"36"51841D3E-5198-45A8-B115-BC0B14EE9525-
+
+CCopyTiffFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Play.tiff" "Site Lighter/Play.tiff"
+s357839570.845905
+e357839570.874114
+r1
+xCopyTiffFile
+x/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Play.tiff
+xSite Lighter/Play.tiff
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection27"Copy Site Lighter/Play.tiff09a4d8d23254b541^46d1dfd23254b541^---0#0#0#-19%DVTDocumentLocation2@91"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Play.tiff0000000000000000^313"CopyTiffFile "build/Debug/Site Lighter.app/Contents/Resources/Play.tiff" "Site Lighter/Play.tiff"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copyTiff --outdir "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources" -- "Site Lighter/Play.tiff"36"F7F749CA-904D-4EF2-8C8F-B8FC69B55FEE-
 
 CCpResource "Site Lighter/TODO.txt" "build/Debug/Site Lighter.app/Contents/Resources/TODO.txt"
-s353170425.548687
-e353170425.604925
+s357839570.718864
+e357839570.724639
 r1
 xCpResource
 xSite Lighter/TODO.txt
 xbuild/Debug/Site Lighter.app/Contents/Resources/TODO.txt
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug/Site Lighter.app/Contents/Resources/TODO.txt618c8cf9f30cb541^2fdb9af9f30cb541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/build/Debug/Site%20Lighter.app/Contents/Resources/TODO.txt000000000080d041^541"CpResource "Site Lighter/TODO.txt" "build/Debug/Site Lighter.app/Contents/Resources/TODO.txt"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/TODO.txt" "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources"36"4B4434A1-D396-454D-B79C-032172517FFB-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug/Site Lighter.app/Contents/Resources/TODO.txtb41cb8d23254b541^4981b9d23254b541^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/build/Debug/Site%20Lighter.app/Contents/Resources/TODO.txt000000000080d041^541"CpResource "Site Lighter/TODO.txt" "build/Debug/Site Lighter.app/Contents/Resources/TODO.txt"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/TODO.txt" "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources"36"2082CFDB-6C88-4FFC-B01D-6A6A7C15EADF-
 
 CCpResource "Site Lighter/en.lproj/Credits.rtf" "build/Debug/Site Lighter.app/Contents/Resources/en.lproj/Credits.rtf"
-s353170425.511303
-e353170425.547504
+s357839570.718516
+e357839570.721290
 r1
 xCpResource
 xSite Lighter/en.lproj/Credits.rtf
 xbuild/Debug/Site Lighter.app/Contents/Resources/en.lproj/Credits.rtf
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/Site Lighter.app/Contents/Resources/en.lproj/Credits.rtf76fd82f9f30cb541^c3288cf9f30cb541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/build/Debug/Site%20Lighter.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^586"CpResource "Site Lighter/en.lproj/Credits.rtf" "build/Debug/Site Lighter.app/Contents/Resources/en.lproj/Credits.rtf"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/Credits.rtf" "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/en.lproj"36"620DA51F-1D13-44BF-A819-90653CA1A834-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug/Site Lighter.app/Contents/Resources/en.lproj/Credits.rtf350bb8d23254b541^b9a6b8d23254b541^---0#0#0#-19%DVTDocumentLocation2@137"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/build/Debug/Site%20Lighter.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^586"CpResource "Site Lighter/en.lproj/Credits.rtf" "build/Debug/Site Lighter.app/Contents/Resources/en.lproj/Credits.rtf"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/en.lproj/Credits.rtf" "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/en.lproj"36"66A3E05B-77CE-4A27-98C2-D3B23724D83F-
 
-CDataModelVersionCompile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Site_Lighter.xcdatamodeld"
-s353170415.832689
-e353170419.329186
+CCpResource "Site Lighter/minus-8.png" "build/Debug/Site Lighter.app/Contents/Resources/minus-8.png"
+s357839570.840860
+e357839570.844624
+r1
+xCpResource
+xSite Lighter/minus-8.png
+xbuild/Debug/Site Lighter.app/Contents/Resources/minus-8.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug/Site Lighter.app/Contents/Resources/minus-8.pngd95ed7d23254b541^f643d8d23254b541^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/build/Debug/Site%20Lighter.app/Contents/Resources/minus-8.png000000000080d041^550"CpResource "Site Lighter/minus-8.png" "build/Debug/Site Lighter.app/Contents/Resources/minus-8.png"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/minus-8.png" "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources"36"266B3629-4158-4D72-8201-E851437083EF-
+
+CCpResource "Site Lighter/plus-8.png" "build/Debug/Site Lighter.app/Contents/Resources/plus-8.png"
+s357839570.833330
+e357839570.839048
+r1
+xCpResource
+xSite Lighter/plus-8.png
+xbuild/Debug/Site Lighter.app/Contents/Resources/plus-8.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug/Site Lighter.app/Contents/Resources/plus-8.pngfd6bd5d23254b541^68cad6d23254b541^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/build/Debug/Site%20Lighter.app/Contents/Resources/plus-8.png000000000080d041^547"CpResource "Site Lighter/plus-8.png" "build/Debug/Site Lighter.app/Contents/Resources/plus-8.png"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/plus-8.png" "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources"36"1A7EC311-B5EC-4BCE-9DC0-E5890157EC46-
+
+CCpResource sitelighter.icns "build/Debug/Site Lighter.app/Contents/Resources/sitelighter.icns"
+s357839570.861203
+e357839570.865482
+r1
+xCpResource
+xsitelighter.icns
+xbuild/Debug/Site Lighter.app/Contents/Resources/sitelighter.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Debug/Site Lighter.app/Contents/Resources/sitelighter.icnsb893dcd23254b541^1b9bddd23254b541^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/build/Debug/Site%20Lighter.app/Contents/Resources/sitelighter.icns000000000080d041^537"CpResource sitelighter.icns "build/Debug/Site Lighter.app/Contents/Resources/sitelighter.icns"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip "/Users/pim/github/local/SiteLighter/Site Lighter/sitelighter.icns" "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources"36"40A469C3-D275-4B82-AF26-A2D5A151DAE4-
+
+CDataModelVersionCompile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd" "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/../Site_Lighter.xcdatamodeld"
+s357839567.060413
+e357839567.869264
 r1
 xDataModelVersionCompile
 x/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd
-x/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Site_Lighter.xcdatamodeld
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"DataModelVersionCompile "build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd" "Site Lighter/Site_Lighter.xcdatamodeld"af43d5eff30cb541^6b4454f3f30cb541^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Site_Lighter.xcdatamodeld/0000000000000000^626"DataModelVersionCompile "build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd" "Site Lighter/Site_Lighter.xcdatamodeld"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    /Applications/Xcode.app/Contents/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -MOMC_PLATFORMS macosx -XD_MOMC_TARGET_VERSION=10.7 "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Site_Lighter.xcdatamodeld" "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd"36"44C7906B-7E28-4518-8047-87EC0D7B50BD-
+x/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/../Site_Lighter.xcdatamodeld
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection135"DataModelVersionCompile "build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd" "Site Lighter/../Site_Lighter.xcdatamodeld"36930fcf3254b541^4d87decf3254b541^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/../Site_Lighter.xcdatamodeld/0000000000000000^632"DataModelVersionCompile "build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd" "Site Lighter/../Site_Lighter.xcdatamodeld"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    /Applications/Xcode.app/Contents/Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -MOMC_PLATFORMS macosx -XD_MOMC_TARGET_VERSION=10.5 "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/../Site_Lighter.xcdatamodeld" "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Resources/Site_Lighter.momd"36"862FEB81-90E5-4BC0-93A3-A9AA17CCFF64-
 
 CLd "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/MacOS/Site Lighter" normal x86_64
-s353170424.314185
-e353170425.502704
+s357839570.377756
+e357839570.710253
 r1
 xLd
 x/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/MacOS/Site Lighter
 xnormal
 xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/MacOS/Site Lighterd99350f8f30cb541^c0b080f9f30cb541^---0#0#0#--837"Ld "build/Debug/Site Lighter.app/Contents/MacOS/Site Lighter" normal x86_64    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk "-L/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -filelist "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Site Lighter.LinkFileList" -mmacosx-version-min=10.7 -framework Cocoa -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/MacOS/Site Lighter"36"64D2E65F-5E98-4594-8F3C-0747BAE6BFBA-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/MacOS/Site Lighter3e2163d23254b541^e5d5b5d23254b541^---0#0#0#--837"Ld "build/Debug/Site Lighter.app/Contents/MacOS/Site Lighter" normal x86_64    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk "-L/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" -filelist "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Objects-normal/x86_64/Site Lighter.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/MacOS/Site Lighter"36"EDC3979E-14B2-494A-8F88-C94AFDC1A9D1-
 
 CProcessInfoPlistFile "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Info.plist" "Site Lighter/Site Lighter-Info.plist"
-s353170415.780302
-e353170415.824175
+s357839567.040889
+e357839567.051170
 r1
 xProcessInfoPlistFile
 x/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Info.plist
 xSite Lighter/Site Lighter-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process Site Lighter/Site Lighter-Info.plistcee0c7eff30cb541^e1efd3eff30cb541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Site%20Lighter-Info.plist0000000000000000^487"ProcessInfoPlistFile "build/Debug/Site Lighter.app/Contents/Info.plist" "Site Lighter/Site Lighter-Info.plist"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-infoPlistUtility "Site Lighter/Site Lighter-Info.plist" -genpkginfo "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Info.plist"36"01408A5E-45CC-413D-B224-734F5EAD475C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Process Site Lighter/Site Lighter-Info.pliste78e0acf3254b541^69190dcf3254b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Site%20Lighter-Info.plist0000000000000000^487"ProcessInfoPlistFile "build/Debug/Site Lighter.app/Contents/Info.plist" "Site Lighter/Site Lighter-Info.plist"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    builtin-infoPlistUtility "Site Lighter/Site Lighter-Info.plist" -genpkginfo "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app/Contents/Info.plist"36"AD9CCA6F-7320-40EE-A647-2268A6264B5F-
 
-CProcessPCH "/Users/pim/Library/Developer/Xcode/DerivedData/Site_Lighter-helzhwlcwwizxpeapjnycufwzgwh/Index/PrecompiledHeaders/Site Lighter-Prefix-hlhghfumgtnwegfwqyqcxcspxhvj_ast/Site Lighter-Prefix.pch.pth" "Site Lighter/Site Lighter-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+CProcessPCH "/Users/pim/Library/Developer/Xcode/DerivedData/Site_Lighter-helzhwlcwwizxpeapjnycufwzgwh/Index/PrecompiledHeaders/Site Lighter-Prefix-evzipivuhmgxaqeabmfqtlbntmse_ast/Site Lighter-Prefix.pch.pth" "Site Lighter/Site Lighter-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
 r0
 
-CProcessPCH "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch.pth" "Site Lighter/Site Lighter-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s353170415.832705
-e353170423.817858
+CProcessPCH "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch.pth" "Site Lighter/Site Lighter-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s357839567.060414
+e357839570.072687
 r1
 xProcessPCH
-x/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch.pth
+x/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch.pth
 xSite Lighter/Site Lighter-Prefix.pch
 xnormal
 xx86_64
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Site Lighter/Site Lighter-Prefix.pch6c5ed5eff30cb541^5b5ed1f7f30cb541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Site%20Lighter-Prefix.pch0000000000000000^3075"ProcessPCH "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch.pth" "Site Lighter/Site Lighter-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" --serialize-diagnostics "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Site Lighter-Prefix.pch" -o "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch.pth" -MMD -MT dependencies -MF "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-fukltfkoliinhjcyxszyppnlrcoo/Site Lighter-Prefix.pch.d"36"2F5581ED-3CC7-49DA-953E-12B31260E7B6-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Site Lighter/Site Lighter-Prefix.pch33a30fcf3254b541^919a12d23254b541^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/pim/github/local/SiteLighter/Site%20Lighter/Site%20Lighter/Site%20Lighter-Prefix.pch0000000000000000^3075"ProcessPCH "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch.pth" "Site Lighter/Site Lighter-Prefix.pch" normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-sign-compare -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk -fasm-blocks -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-conversion -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-generated-files.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-own-target-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-all-target-headers.hmap" -iquote "/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/Site Lighter-project-headers.hmap" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/include" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources/x86_64" "-I/Users/pim/github/local/SiteLighter/Site Lighter/build/Site Lighter.build/Debug/Site Lighter.build/DerivedSources" "-F/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug" --serialize-diagnostics "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch.dia" -c "/Users/pim/github/local/SiteLighter/Site Lighter/Site Lighter/Site Lighter-Prefix.pch" -o "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch.pth" -MMD -MT dependencies -MF "/var/folders/q_/p2wkrhdx4wv3k41clnfjmcfr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Site Lighter-Prefix-bwvykjrpofsobohjjjqbbclmflvx/Site Lighter-Prefix.pch.d"36"2B498845-1DDA-46E6-BFF9-D1CC8890F3DF-
 
 CTouch "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app"
-s353170430.720303
-e353170430.791362
+s357839573.642421
+e357839573.679495
 r1
 xTouch
 x/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app168ab8fef30cb541^8aabcafef30cb541^---0#0#0#--197"Touch "build/Debug/Site Lighter.app"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    /usr/bin/touch -c "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app"36"D2336316-13B8-429D-8195-E3A39CBACAED-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Touch /Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.appa88ba4d53254b541^1ff3add53254b541^---0#0#0#--197"Touch "build/Debug/Site Lighter.app"    cd "/Users/pim/github/local/SiteLighter/Site Lighter"    /usr/bin/touch -c "/Users/pim/github/local/SiteLighter/Site Lighter/build/Debug/Site Lighter.app"36"E5C6DF36-6CA6-4643-BBF0-94B84370F291-
 

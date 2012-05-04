@@ -15,6 +15,7 @@
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize managedObjectContext = __managedObjectContext;
 @synthesize preferences;
+@synthesize selectedSite;
 
 
 - (void)dealloc
@@ -30,6 +31,18 @@
     // Insert code here to initialize your application
 }
 
+
+- (void) tableViewSelectionDidChange:(NSNotification *)notification{
+ /*
+  NSTableView* table = [notification object];
+    NSInteger selection = table.selectedRow;
+    NSArray* albums = [self.albumsArrayController arrangedObjects];
+    
+    
+    CBAlbum * album = [albums objectAtIndex:selection];
+    [[NSApp delegate] setValue:album forKey: @"selectedAlbum"];
+  */
+}
 
 -(IBAction)showPreferences:(id)sender{
     if(!self.preferences)

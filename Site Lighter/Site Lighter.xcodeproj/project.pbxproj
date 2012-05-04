@@ -7,19 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E0480EF152ED7E500635F1F /* Site_Lighter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E0480EC152ED7E500635F1F /* Site_Lighter.xcdatamodeld */; };
+		3E0D6F4915542F040039551B /* SLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D6F4815542F040039551B /* SLMainViewController.m */; };
+		3E32A3EE152EDA74003890C9 /* SLSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E32A3ED152EDA74003890C9 /* SLSite.m */; };
+		3E32A3F7152EE0D9003890C9 /* Green Ball.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */; };
+		3E32A3F9152EE0E6003890C9 /* Linkback Green.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3F8152EE0E6003890C9 /* Linkback Green.tiff */; };
+		3E32A3FB152EE0F5003890C9 /* plus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3FA152EE0F5003890C9 /* plus-8.png */; };
+		3E32A3FD152EE0FC003890C9 /* minus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3FC152EE0FC003890C9 /* minus-8.png */; };
+		3E32A3FF152EE12D003890C9 /* LinkBack.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3FE152EE12D003890C9 /* LinkBack.tiff */; };
+		3E32A405152EE1DD003890C9 /* Play.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A404152EE1DD003890C9 /* Play.tiff */; };
 		3E8B04FC150CF04B00E8EDFE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8B04FB150CF04B00E8EDFE /* Cocoa.framework */; };
 		3E8B0506150CF04B00E8EDFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0504150CF04B00E8EDFE /* InfoPlist.strings */; };
 		3E8B0508150CF04B00E8EDFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B0507150CF04B00E8EDFE /* main.m */; };
 		3E8B050C150CF04B00E8EDFE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B050A150CF04B00E8EDFE /* Credits.rtf */; };
 		3E8B050F150CF04B00E8EDFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B050E150CF04B00E8EDFE /* AppDelegate.m */; };
 		3E8B0512150CF04B00E8EDFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0510150CF04B00E8EDFE /* MainMenu.xib */; };
-		3E8B0515150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B0513150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld */; };
 		3E8B051C150CF08C00E8EDFE /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B051B150CF08C00E8EDFE /* TODO.txt */; };
 		3E8B0522150CF23500E8EDFE /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B0520150CF23500E8EDFE /* Preferences.m */; };
 		3E8B0523150CF23500E8EDFE /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0521150CF23500E8EDFE /* Preferences.xib */; };
+		3EFEA36A152EE72800F85DD9 /* sitelighter.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEA369152EE72800F85DD9 /* sitelighter.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E0480ED152ED7E500635F1F /* Site_Lighter 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Site_Lighter 2.xcdatamodel"; sourceTree = "<group>"; };
+		3E0480EE152ED7E500635F1F /* Site_Lighter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Site_Lighter.xcdatamodel; sourceTree = "<group>"; };
+		3E0D6F4715542F040039551B /* SLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMainViewController.h; sourceTree = "<group>"; };
+		3E0D6F4815542F040039551B /* SLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMainViewController.m; sourceTree = "<group>"; };
+		3E32A3EC152EDA74003890C9 /* SLSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSite.h; sourceTree = "<group>"; };
+		3E32A3ED152EDA74003890C9 /* SLSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSite.m; sourceTree = "<group>"; };
+		3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Green Ball.tiff"; sourceTree = "<group>"; };
+		3E32A3F8152EE0E6003890C9 /* Linkback Green.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Linkback Green.tiff"; sourceTree = "<group>"; };
+		3E32A3FA152EE0F5003890C9 /* plus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-8.png"; sourceTree = "<group>"; };
+		3E32A3FC152EE0FC003890C9 /* minus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus-8.png"; sourceTree = "<group>"; };
+		3E32A3FE152EE12D003890C9 /* LinkBack.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LinkBack.tiff; sourceTree = "<group>"; };
+		3E32A404152EE1DD003890C9 /* Play.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Play.tiff; sourceTree = "<group>"; };
 		3E8B04F7150CF04B00E8EDFE /* Site Lighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Site Lighter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8B04FB150CF04B00E8EDFE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3E8B04FE150CF04B00E8EDFE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -33,11 +54,11 @@
 		3E8B050D150CF04B00E8EDFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E8B050E150CF04B00E8EDFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3E8B0511150CF04B00E8EDFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		3E8B0514150CF04B00E8EDFE /* Site_Lighter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Site_Lighter.xcdatamodel; sourceTree = "<group>"; };
 		3E8B051B150CF08C00E8EDFE /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
 		3E8B051F150CF23500E8EDFE /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
 		3E8B0520150CF23500E8EDFE /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
 		3E8B0521150CF23500E8EDFE /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		3EFEA369152EE72800F85DD9 /* sitelighter.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sitelighter.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +76,7 @@
 		3E8B04EC150CF04A00E8EDFE = {
 			isa = PBXGroup;
 			children = (
+				3EFEA369152EE72800F85DD9 /* sitelighter.icns */,
 				3E8B0501150CF04B00E8EDFE /* Site Lighter */,
 				3E8B04FA150CF04B00E8EDFE /* Frameworks */,
 				3E8B04F8150CF04B00E8EDFE /* Products */,
@@ -93,7 +115,7 @@
 			children = (
 				3E8B0525150CF26000E8EDFE /* Views */,
 				3E8B0524150CF24100E8EDFE /* Classes */,
-				3E8B0513150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld */,
+				3E0480EC152ED7E500635F1F /* Site_Lighter.xcdatamodeld */,
 				3E8B0502150CF04B00E8EDFE /* Supporting Files */,
 			);
 			path = "Site Lighter";
@@ -102,6 +124,12 @@
 		3E8B0502150CF04B00E8EDFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E32A404152EE1DD003890C9 /* Play.tiff */,
+				3E32A3FE152EE12D003890C9 /* LinkBack.tiff */,
+				3E32A3FC152EE0FC003890C9 /* minus-8.png */,
+				3E32A3FA152EE0F5003890C9 /* plus-8.png */,
+				3E32A3F8152EE0E6003890C9 /* Linkback Green.tiff */,
+				3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */,
 				3E8B051B150CF08C00E8EDFE /* TODO.txt */,
 				3E8B0503150CF04B00E8EDFE /* Site Lighter-Info.plist */,
 				3E8B0504150CF04B00E8EDFE /* InfoPlist.strings */,
@@ -119,6 +147,10 @@
 				3E8B0520150CF23500E8EDFE /* Preferences.m */,
 				3E8B050D150CF04B00E8EDFE /* AppDelegate.h */,
 				3E8B050E150CF04B00E8EDFE /* AppDelegate.m */,
+				3E0D6F4715542F040039551B /* SLMainViewController.h */,
+				3E0D6F4815542F040039551B /* SLMainViewController.m */,
+				3E32A3EC152EDA74003890C9 /* SLSite.h */,
+				3E32A3ED152EDA74003890C9 /* SLSite.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -188,6 +220,13 @@
 				3E8B0512150CF04B00E8EDFE /* MainMenu.xib in Resources */,
 				3E8B051C150CF08C00E8EDFE /* TODO.txt in Resources */,
 				3E8B0523150CF23500E8EDFE /* Preferences.xib in Resources */,
+				3E32A3F7152EE0D9003890C9 /* Green Ball.tiff in Resources */,
+				3E32A3F9152EE0E6003890C9 /* Linkback Green.tiff in Resources */,
+				3E32A3FB152EE0F5003890C9 /* plus-8.png in Resources */,
+				3E32A3FD152EE0FC003890C9 /* minus-8.png in Resources */,
+				3E32A3FF152EE12D003890C9 /* LinkBack.tiff in Resources */,
+				3E32A405152EE1DD003890C9 /* Play.tiff in Resources */,
+				3EFEA36A152EE72800F85DD9 /* sitelighter.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,8 +239,10 @@
 			files = (
 				3E8B0508150CF04B00E8EDFE /* main.m in Sources */,
 				3E8B050F150CF04B00E8EDFE /* AppDelegate.m in Sources */,
-				3E8B0515150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld in Sources */,
 				3E8B0522150CF23500E8EDFE /* Preferences.m in Sources */,
+				3E0480EF152ED7E500635F1F /* Site_Lighter.xcdatamodeld in Sources */,
+				3E32A3EE152EDA74003890C9 /* SLSite.m in Sources */,
+				3E0D6F4915542F040039551B /* SLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,7 +296,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -275,7 +316,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -321,17 +362,20 @@
 				3E8B051A150CF04B00E8EDFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		3E8B0513150CF04B00E8EDFE /* Site_Lighter.xcdatamodeld */ = {
+		3E0480EC152ED7E500635F1F /* Site_Lighter.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				3E8B0514150CF04B00E8EDFE /* Site_Lighter.xcdatamodel */,
+				3E0480ED152ED7E500635F1F /* Site_Lighter 2.xcdatamodel */,
+				3E0480EE152ED7E500635F1F /* Site_Lighter.xcdatamodel */,
 			);
-			currentVersion = 3E8B0514150CF04B00E8EDFE /* Site_Lighter.xcdatamodel */;
-			path = Site_Lighter.xcdatamodeld;
+			currentVersion = 3E0480ED152ED7E500635F1F /* Site_Lighter 2.xcdatamodel */;
+			name = Site_Lighter.xcdatamodeld;
+			path = ../Site_Lighter.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

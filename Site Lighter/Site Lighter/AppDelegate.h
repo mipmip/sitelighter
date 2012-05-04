@@ -8,6 +8,7 @@
 
 #import <Cocoa/Cocoa.h>
 #import "Preferences.h"
+#import "SLSite.h"
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -17,9 +18,12 @@
 @property (readonly, strong, nonatomic) NSManagedObjectModel *managedObjectModel;
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (retain) Preferences *preferences;
+@property (retain) SLSite* selectedSite;
+
 
 
 - (IBAction)showPreferences:(id)sender;
 - (IBAction)saveAction:(id)sender;
+//- (IBAction)newSite:(id)sender;
 
 @end

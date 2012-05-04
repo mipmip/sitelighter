@@ -3,11 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>NSManagedObjectModel_CurrentVersionName</key>
-	<string>Site_Lighter</string>
+	<string>Site_Lighter 2</string>
 	<key>NSManagedObjectModel_VersionHashes</key>
 	<dict>
 		<key>Site_Lighter</key>
-		<dict/>
+		<dict>
+			<key>Page</key>
+			<data>
+			28S58RuW8vWgMvdiV+t0Hmq2qxk1K8IbhdHSQcdfORY=
+			</data>
+			<key>Site</key>
+			<data>
+			fYlnuqwH9OeBQ89S7j4VxDxi8lJyXDCo1WxfLyl66Aw=
+			</data>
+		</dict>
+		<key>Site_Lighter 2</key>
+		<dict>
+			<key>Page</key>
+			<data>
+			28S58RuW8vWgMvdiV+t0Hmq2qxk1K8IbhdHSQcdfORY=
+			</data>
+			<key>Site</key>
+			<data>
+			fYlnuqwH9OeBQ89S7j4VxDxi8lJyXDCo1WxfLyl66Aw=
+			</data>
+		</dict>
 	</dict>
 </dict>
 </plist>

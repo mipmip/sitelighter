@@ -39,7 +39,7 @@ iWebewi Milestones
     0.4 Objective-C rewrite
         - complete rewrite to Objective-C
         - OK Renaming to Site Lighter
-        - Preferences witg debug
+        - OK Preferences with debug
 	0.5 Mac
 		- Page level optimizations 
 		- read iweb configuration
