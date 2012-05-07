@@ -14,7 +14,7 @@
 @synthesize persistentStoreCoordinator = __persistentStoreCoordinator;
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize managedObjectContext = __managedObjectContext;
-@synthesize preferences;
+@synthesize preferencesController;
 @synthesize selectedSite;
 
 
@@ -45,10 +45,10 @@
 }
 
 -(IBAction)showPreferences:(id)sender{
-    if(!self.preferences)
-        self.preferences = [[Preferences alloc] initWithWindowNibName:@"Preferences"];
+    if(!self.preferencesController)
+        self.preferencesController = [[PreferencesController alloc] initWithWindowNibName:@"Preferences"];
     
-    [self.preferences showWindow:self];
+    [self.preferencesController showWindow:self];
 }
 
 
@@ -170,6 +170,12 @@
         [[NSApplication sharedApplication] presentError:error];
     }
 }
+
+-(BOOL) applicationShouldTerminateAfterLastWindowClosed:(NSApplication *)theApplication
+{
+    return YES;
+}
+
 
 - (NSApplicationTerminateReply)applicationShouldTerminate:(NSApplication *)sender
 {

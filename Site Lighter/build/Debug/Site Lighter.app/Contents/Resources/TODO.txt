@@ -29,20 +29,31 @@ iWebewi Milestones
 		- OK Status berichten
 	0.3.3 Mac testing verder uitgewerkt
 		- OK coredata migration
-		- 1/2 status berichten met de juiste timing
 		- OK log implementation
-		- 1/2 google analytics code
-		- sep meta tags
-		- lightbox overlay slider
 		- SKIPPED support i386 using macruby 0.9
-		- edit internal page title inside table box
     0.4 Objective-C rewrite
-        - complete rewrite to Objective-C
         - OK Renaming to Site Lighter
         - OK Preferences with debug
+        - OK FTP/DOWNLOAD gedeelte. helaas kon ik even niet zonder ruby
+        - OK header/footer/title/lightify replace
+        - OK google analytics?
+		- OK sep meta tags
+		- OK name 
+			OK Site Lighter
+            SKIPPED iWeb Helper
+            SKIPPED iWeb Site Improver
+			SKIPPED iWeb Cherry
+			SKIPPED iWeb Creamer
+        - screenshot
+        - statusberichten
+        - 80% complete rewrite to Objective-C
+        - log implementatie opnieuw
 	0.5 Mac
+        - mooie vormgeving. Settings verbergen mooi sites browser met optimize knoppen.
+		- lightbox overlay slider
+		- edit internal page title inside table box
 		- Page level optimizations 
-		- read iweb configuration
+		- read iweb configuration...
 		- replace php code with macruby
 		- view log implementation
 		- google analytics tab
@@ -55,12 +66,6 @@ iWebewi Milestones
 		- social networking/add this/etc...
 		- like button
 	0.6 Official Name & Documentation
-		- name 
-			OK Site Lighter
-            SKIPPED iWeb Helper
-            SKIPPED iWeb Site Improver
-			SKIPPED iWeb Cherry
-			SKIPPED iWeb Creamer
 		- new icon
 		- interface redesign
 	0.7 Selected Beta (Nina, Diana...)

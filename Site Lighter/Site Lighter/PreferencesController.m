@@ -1,18 +1,18 @@
 //
-//  Preferences.m
-//  Site Lighter
+//  PreferencesController.m
+//  REFx3
 //
-//  Created by Pim Snel on 11-03-12.
+//  Created by Pim Snel on 07-03-12.
 //  Copyright (c) 2012 Lingewoud b.v. All rights reserved.
 //
 
-#import "Preferences.h"
+#import "PreferencesController.h"
 
-@interface Preferences ()
-
+@interface PreferencesController ()
 @end
 
-@implementation Preferences
+
+@implementation PreferencesController
 
 -(id)init{
     if (![super initWithWindowNibName:@"Preferences"]){
@@ -21,11 +21,13 @@
     return self;
 }
 
+
 - (id)initWithWindow:(NSWindow *)window
 {
+
+
     self = [super initWithWindow:window];
     if (self) {
-        // Initialization code here.
     }
     
     return self;
@@ -35,7 +37,6 @@
 {
     [super windowDidLoad];
     
-    // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
 }
 
 @end

@@ -23,10 +23,28 @@
 		3E8B050F150CF04B00E8EDFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B050E150CF04B00E8EDFE /* AppDelegate.m */; };
 		3E8B0512150CF04B00E8EDFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0510150CF04B00E8EDFE /* MainMenu.xib */; };
 		3E8B051C150CF08C00E8EDFE /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B051B150CF08C00E8EDFE /* TODO.txt */; };
-		3E8B0522150CF23500E8EDFE /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B0520150CF23500E8EDFE /* Preferences.m */; };
-		3E8B0523150CF23500E8EDFE /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0521150CF23500E8EDFE /* Preferences.xib */; };
+		3EB3A19F1556993E009D41A6 /* sitelighterlib.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3A19E1556993E009D41A6 /* sitelighterlib.rb */; };
+		3EB3A1A1155699AC009D41A6 /* plugins in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3A1A0155699AC009D41A6 /* plugins */; };
+		3EB3A1A315569B3D009D41A6 /* sitelighterlibwrapper.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3A1A215569B3D009D41A6 /* sitelighterlibwrapper.rb */; };
+		3EB3A1A91556CB4F009D41A6 /* ftp_sync.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3A1A81556CB4F009D41A6 /* ftp_sync.rb */; };
+		3EB3A1B815571581009D41A6 /* Preferences.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3A1B515571580009D41A6 /* Preferences.xib */; };
+		3EB3A1B915571581009D41A6 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3A1B715571581009D41A6 /* PreferencesController.m */; };
+		3EB3A1CC1557357C009D41A6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB3A1CB1557357C009D41A6 /* WebKit.framework */; };
+		3EB3A1CF15573AC2009D41A6 /* WebToPng.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3A1CE15573AC2009D41A6 /* WebToPng.m */; };
 		3EFEA36A152EE72800F85DD9 /* sitelighter.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEA369152EE72800F85DD9 /* sitelighter.icns */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EC6165E1555868000957FD9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3E0480ED152ED7E500635F1F /* Site_Lighter 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Site_Lighter 2.xcdatamodel"; sourceTree = "<group>"; };
@@ -55,9 +73,16 @@
 		3E8B050E150CF04B00E8EDFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3E8B0511150CF04B00E8EDFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3E8B051B150CF08C00E8EDFE /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
-		3E8B051F150CF23500E8EDFE /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Preferences.h; sourceTree = "<group>"; };
-		3E8B0520150CF23500E8EDFE /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Preferences.m; sourceTree = "<group>"; };
-		3E8B0521150CF23500E8EDFE /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		3EB3A19E1556993E009D41A6 /* sitelighterlib.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = sitelighterlib.rb; sourceTree = "<group>"; };
+		3EB3A1A0155699AC009D41A6 /* plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = plugins; sourceTree = "<group>"; };
+		3EB3A1A215569B3D009D41A6 /* sitelighterlibwrapper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = sitelighterlibwrapper.rb; sourceTree = "<group>"; };
+		3EB3A1A81556CB4F009D41A6 /* ftp_sync.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ftp_sync.rb; sourceTree = "<group>"; };
+		3EB3A1B515571580009D41A6 /* Preferences.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Preferences.xib; sourceTree = "<group>"; };
+		3EB3A1B615571580009D41A6 /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
+		3EB3A1B715571581009D41A6 /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		3EB3A1CB1557357C009D41A6 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		3EB3A1CD15573AC2009D41A6 /* WebToPng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebToPng.h; sourceTree = "<group>"; };
+		3EB3A1CE15573AC2009D41A6 /* WebToPng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebToPng.m; sourceTree = "<group>"; };
 		3EFEA369152EE72800F85DD9 /* sitelighter.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = sitelighter.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EB3A1CC1557357C009D41A6 /* WebKit.framework in Frameworks */,
 				3E8B04FC150CF04B00E8EDFE /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +129,7 @@
 		3E8B04FD150CF04B00E8EDFE /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3EB3A1CB1557357C009D41A6 /* WebKit.framework */,
 				3E8B04FE150CF04B00E8EDFE /* AppKit.framework */,
 				3E8B04FF150CF04B00E8EDFE /* CoreData.framework */,
 				3E8B0500150CF04B00E8EDFE /* Foundation.framework */,
@@ -113,6 +140,8 @@
 		3E8B0501150CF04B00E8EDFE /* Site Lighter */ = {
 			isa = PBXGroup;
 			children = (
+				3EB3A1A0155699AC009D41A6 /* plugins */,
+				3EB3A19C1556992D009D41A6 /* RubyHelpers */,
 				3E8B0525150CF26000E8EDFE /* Views */,
 				3E8B0524150CF24100E8EDFE /* Classes */,
 				3E0480EC152ED7E500635F1F /* Site_Lighter.xcdatamodeld */,
@@ -143,12 +172,14 @@
 		3E8B0524150CF24100E8EDFE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				3E8B051F150CF23500E8EDFE /* Preferences.h */,
-				3E8B0520150CF23500E8EDFE /* Preferences.m */,
+				3EB3A1B615571580009D41A6 /* PreferencesController.h */,
+				3EB3A1B715571581009D41A6 /* PreferencesController.m */,
 				3E8B050D150CF04B00E8EDFE /* AppDelegate.h */,
 				3E8B050E150CF04B00E8EDFE /* AppDelegate.m */,
 				3E0D6F4715542F040039551B /* SLMainViewController.h */,
 				3E0D6F4815542F040039551B /* SLMainViewController.m */,
+				3EB3A1CD15573AC2009D41A6 /* WebToPng.h */,
+				3EB3A1CE15573AC2009D41A6 /* WebToPng.m */,
 				3E32A3EC152EDA74003890C9 /* SLSite.h */,
 				3E32A3ED152EDA74003890C9 /* SLSite.m */,
 			);
@@ -158,10 +189,20 @@
 		3E8B0525150CF26000E8EDFE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				3EB3A1B515571580009D41A6 /* Preferences.xib */,
 				3E8B0510150CF04B00E8EDFE /* MainMenu.xib */,
-				3E8B0521150CF23500E8EDFE /* Preferences.xib */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		3EB3A19C1556992D009D41A6 /* RubyHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				3EB3A1A81556CB4F009D41A6 /* ftp_sync.rb */,
+				3EB3A1A215569B3D009D41A6 /* sitelighterlibwrapper.rb */,
+				3EB3A19E1556993E009D41A6 /* sitelighterlib.rb */,
+			);
+			name = RubyHelpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +215,7 @@
 				3E8B04F3150CF04B00E8EDFE /* Sources */,
 				3E8B04F4150CF04B00E8EDFE /* Frameworks */,
 				3E8B04F5150CF04B00E8EDFE /* Resources */,
+				3EC6165E1555868000957FD9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -218,8 +260,6 @@
 				3E8B0506150CF04B00E8EDFE /* InfoPlist.strings in Resources */,
 				3E8B050C150CF04B00E8EDFE /* Credits.rtf in Resources */,
 				3E8B0512150CF04B00E8EDFE /* MainMenu.xib in Resources */,
-				3E8B051C150CF08C00E8EDFE /* TODO.txt in Resources */,
-				3E8B0523150CF23500E8EDFE /* Preferences.xib in Resources */,
 				3E32A3F7152EE0D9003890C9 /* Green Ball.tiff in Resources */,
 				3E32A3F9152EE0E6003890C9 /* Linkback Green.tiff in Resources */,
 				3E32A3FB152EE0F5003890C9 /* plus-8.png in Resources */,
@@ -227,6 +267,12 @@
 				3E32A3FF152EE12D003890C9 /* LinkBack.tiff in Resources */,
 				3E32A405152EE1DD003890C9 /* Play.tiff in Resources */,
 				3EFEA36A152EE72800F85DD9 /* sitelighter.icns in Resources */,
+				3E8B051C150CF08C00E8EDFE /* TODO.txt in Resources */,
+				3EB3A19F1556993E009D41A6 /* sitelighterlib.rb in Resources */,
+				3EB3A1A1155699AC009D41A6 /* plugins in Resources */,
+				3EB3A1A315569B3D009D41A6 /* sitelighterlibwrapper.rb in Resources */,
+				3EB3A1A91556CB4F009D41A6 /* ftp_sync.rb in Resources */,
+				3EB3A1B815571581009D41A6 /* Preferences.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,10 +285,11 @@
 			files = (
 				3E8B0508150CF04B00E8EDFE /* main.m in Sources */,
 				3E8B050F150CF04B00E8EDFE /* AppDelegate.m in Sources */,
-				3E8B0522150CF23500E8EDFE /* Preferences.m in Sources */,
 				3E0480EF152ED7E500635F1F /* Site_Lighter.xcdatamodeld in Sources */,
 				3E32A3EE152EDA74003890C9 /* SLSite.m in Sources */,
 				3E0D6F4915542F040039551B /* SLMainViewController.m in Sources */,
+				3EB3A1B915571581009D41A6 /* PreferencesController.m in Sources */,
+				3EB3A1CF15573AC2009D41A6 /* WebToPng.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +327,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -306,7 +353,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -324,9 +371,18 @@
 		3E8B0519150CF04B00E8EDFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Site Lighter\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Site Lighter/Site Lighter-Prefix.pch";
 				INFOPLIST_FILE = "Site Lighter/Site Lighter-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -335,9 +391,18 @@
 		3E8B051A150CF04B00E8EDFE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/Site Lighter\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Site Lighter/Site Lighter-Prefix.pch";
 				INFOPLIST_FILE = "Site Lighter/Site Lighter-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -12,7 +12,12 @@
 
 @property (retain) IBOutlet NSTableView* sitesTable;
 @property (retain) IBOutlet NSArrayController* sitesArrayController;
+@property BOOL showDebugMessages;
+
 
 //@property (retain) IBOutlet NSView* mainView;
 
+-(IBAction)testSettings:(id)sender;
+-(IBAction)optimize:(id)sender;
+-(IBAction)visitSite:(id)sender;
 @end
