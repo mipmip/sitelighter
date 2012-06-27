@@ -59,7 +59,7 @@
 #pragma mark IBActions
 
 -(IBAction)testSettings:(id)sender{
-//    [self testFTPSettings];
+   [self testFTPSettings];
     [self setSiteSceenShot];
 }
 
