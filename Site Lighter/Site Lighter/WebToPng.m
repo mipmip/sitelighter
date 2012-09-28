@@ -28,10 +28,10 @@
     thumb = theThumb;  
     clipped = theClipped;  
     scale = theScale;  
-    width = theWidth;  
+    width = theWidth;
     height = theHeight;  
     
-    NSRect rect = NSMakeRect(0,0,100,100);  
+    NSRect rect = NSMakeRect(0,0,100,100);
     
     NSWindow *window = [[NSWindow alloc]  
                         initWithContentRect:rect  
@@ -72,17 +72,19 @@
     if (!(thumb || clipped))  
         return;  
     
-    NSInteger aWidth = [bitmapData pixelsWide];  
+    NSInteger aWidth = [bitmapData pixelsWide];
     NSInteger aHeight = [bitmapData pixelsHigh];  
     
-    float thumbWidth = aWidth * scale;  
-    float thumbHeight = aHeight * scale;  
+    //float newscale = width/aWidth;
+    //float thumbWidth = aWidth * scale;
+    //float thumbHeight = aHeight * scale;
+    float calcHeight = width / aWidth * aHeight;
     
-    NSImage *scratch = [[NSImage alloc] initWithSize:NSMakeSize(thumbWidth, thumbHeight)];  
+    NSImage *scratch = [[NSImage alloc] initWithSize:NSMakeSize(width, calcHeight)];
     [scratch lockFocus];  
     [[NSGraphicsContext currentContext] setImageInterpolation:NSImageInterpolationHigh];  
     
-    NSRect thumbRect = NSMakeRect(0.0, 0.0, thumbWidth, thumbHeight);  
+    NSRect thumbRect = NSMakeRect(0.0, 0.0, width, calcHeight);
     NSRect clipRect = NSMakeRect(0.0, height, width, height);  
     
     [bitmapData drawInRect:thumbRect];  
@@ -101,15 +103,31 @@
     if (clipped) {  
         [[clipOutput representationUsingType:NSPNGFileType properties:nil]  
          writeToFile:[NSString stringWithFormat:@"%@/%@-clipped.png", path, name] atomically:YES];  
-    }  
+    }
     
     [scratch release];  
     [bitmapData release];  
     [thumbOutput release];  
-    [clipOutput release];  
-}  
+    [clipOutput release];
+    
+    
+    if(aWidth<=width || aHeight <= height){
+        NSLog(@": w%d h%d: destination size larger then original", aWidth,aHeight);
+    }
+    
+    float tmpH = (float) aWidth / (float) aWidth * (float) aHeight;
+    aHeight = (int) tmpH;
+//    NSLog(@"new calculated height %d/%d =  %f:%d",_width, myImageWidth, tmpH, _height);
+    
+    
+    
+    //THE SCALING MAGIC
+  //  CGImageRef outImage = [p3imglib resizeCGImage:myImage toWidth:_width andHeight:_height];
+    
+    //[p3imglib CGImageWriteToFile:outImage withPath:_out];
+}
 
-- (void)webView:(WebView *)sender didFailProvisionalLoadWithError:(NSError *)error forFrame:(WebFrame *)frame {  
+- (void)webView:(WebView *)sender didFailProvisionalLoadWithError:(NSError *)error forFrame:(WebFrame *)frame {
     NSLog(@"Error: %@", [error localizedDescription]);  
 }  
 

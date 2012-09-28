@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3E0480EF152ED7E500635F1F /* Site_Lighter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E0480EC152ED7E500635F1F /* Site_Lighter.xcdatamodeld */; };
-		3E0D6F4915542F040039551B /* SLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E0D6F4815542F040039551B /* SLMainViewController.m */; };
 		3E32A3EE152EDA74003890C9 /* SLSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E32A3ED152EDA74003890C9 /* SLSite.m */; };
 		3E32A3F7152EE0D9003890C9 /* Green Ball.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */; };
 		3E32A3F9152EE0E6003890C9 /* Linkback Green.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3F8152EE0E6003890C9 /* Linkback Green.tiff */; };
@@ -23,6 +22,21 @@
 		3E8B050F150CF04B00E8EDFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B050E150CF04B00E8EDFE /* AppDelegate.m */; };
 		3E8B0512150CF04B00E8EDFE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0510150CF04B00E8EDFE /* MainMenu.xib */; };
 		3E8B051C150CF08C00E8EDFE /* TODO.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B051B150CF08C00E8EDFE /* TODO.txt */; };
+		3E9EF9771615EC5300068856 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9EF9761615EC5300068856 /* QuartzCore.framework */; };
+		3E9EF97B1615ECAC00068856 /* SLBodyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF97A1615ECAC00068856 /* SLBodyView.m */; };
+		3E9EF97E1615EDEC00068856 /* SLSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF97D1615EDEC00068856 /* SLSegmentedView.m */; };
+		3E9EF9921615F6BF00068856 /* STOverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9911615F6BF00068856 /* STOverlayController.m */; };
+		3E9EF9951615F6DE00068856 /* STOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9941615F6DE00068856 /* STOverlayView.m */; };
+		3E9EF9981615F7B200068856 /* STOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9971615F7B100068856 /* STOverlayWindow.m */; };
+		3E9EF99A1615FE7A00068856 /* magic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF9991615FE7A00068856 /* magic.png */; };
+		3E9EF99C1616003C00068856 /* browserframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF99B1616003C00068856 /* browserframe.png */; };
+		3E9EF9A2161606F900068856 /* SLBrowserFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9A1161606F900068856 /* SLBrowserFrame.m */; };
+		3E9EF9A41616081000068856 /* hallo-original.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF9A31616081000068856 /* hallo-original.png */; };
+		3E9EF9AC16160D9C00068856 /* hallo-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF9AB16160D9C00068856 /* hallo-thumb.png */; };
+		3E9EF9AE16160EEC00068856 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF9AD16160EEC00068856 /* test.png */; };
+		3E9EF9C516164E1B00068856 /* SLLeftPaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9C416164E1B00068856 /* SLLeftPaneView.m */; };
+		3E9EF9CB1616559900068856 /* SLSiteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9CA1616559800068856 /* SLSiteCell.m */; };
+		3E9EF9CE161659D300068856 /* SLMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9CD161659D300068856 /* SLMainViewController.m */; };
 		3EB3A19F1556993E009D41A6 /* sitelighterlib.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3A19E1556993E009D41A6 /* sitelighterlib.rb */; };
 		3EB3A1A1155699AC009D41A6 /* plugins in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3A1A0155699AC009D41A6 /* plugins */; };
 		3EB3A1A315569B3D009D41A6 /* sitelighterlibwrapper.rb in Resources */ = {isa = PBXBuildFile; fileRef = 3EB3A1A215569B3D009D41A6 /* sitelighterlibwrapper.rb */; };
@@ -49,8 +63,6 @@
 /* Begin PBXFileReference section */
 		3E0480ED152ED7E500635F1F /* Site_Lighter 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Site_Lighter 2.xcdatamodel"; sourceTree = "<group>"; };
 		3E0480EE152ED7E500635F1F /* Site_Lighter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Site_Lighter.xcdatamodel; sourceTree = "<group>"; };
-		3E0D6F4715542F040039551B /* SLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMainViewController.h; sourceTree = "<group>"; };
-		3E0D6F4815542F040039551B /* SLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMainViewController.m; sourceTree = "<group>"; };
 		3E32A3EC152EDA74003890C9 /* SLSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSite.h; sourceTree = "<group>"; };
 		3E32A3ED152EDA74003890C9 /* SLSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSite.m; sourceTree = "<group>"; };
 		3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Green Ball.tiff"; sourceTree = "<group>"; };
@@ -73,6 +85,30 @@
 		3E8B050E150CF04B00E8EDFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3E8B0511150CF04B00E8EDFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		3E8B051B150CF08C00E8EDFE /* TODO.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TODO.txt; sourceTree = "<group>"; };
+		3E9EF9761615EC5300068856 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3E9EF9791615ECAC00068856 /* SLBodyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBodyView.h; sourceTree = "<group>"; };
+		3E9EF97A1615ECAC00068856 /* SLBodyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBodyView.m; sourceTree = "<group>"; };
+		3E9EF97C1615EDEC00068856 /* SLSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSegmentedView.h; sourceTree = "<group>"; };
+		3E9EF97D1615EDEC00068856 /* SLSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSegmentedView.m; sourceTree = "<group>"; };
+		3E9EF9901615F6BF00068856 /* STOverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlayController.h; sourceTree = "<group>"; };
+		3E9EF9911615F6BF00068856 /* STOverlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlayController.m; sourceTree = "<group>"; };
+		3E9EF9931615F6DE00068856 /* STOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlayView.h; sourceTree = "<group>"; };
+		3E9EF9941615F6DE00068856 /* STOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlayView.m; sourceTree = "<group>"; };
+		3E9EF9961615F7B100068856 /* STOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlayWindow.h; sourceTree = "<group>"; };
+		3E9EF9971615F7B100068856 /* STOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlayWindow.m; sourceTree = "<group>"; };
+		3E9EF9991615FE7A00068856 /* magic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic.png; sourceTree = "<group>"; };
+		3E9EF99B1616003C00068856 /* browserframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browserframe.png; sourceTree = "<group>"; };
+		3E9EF9A0161606F900068856 /* SLBrowserFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBrowserFrame.h; sourceTree = "<group>"; };
+		3E9EF9A1161606F900068856 /* SLBrowserFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBrowserFrame.m; sourceTree = "<group>"; };
+		3E9EF9A31616081000068856 /* hallo-original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hallo-original.png"; sourceTree = "<group>"; };
+		3E9EF9AB16160D9C00068856 /* hallo-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hallo-thumb.png"; sourceTree = "<group>"; };
+		3E9EF9AD16160EEC00068856 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		3E9EF9C316164E1B00068856 /* SLLeftPaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLeftPaneView.h; sourceTree = "<group>"; };
+		3E9EF9C416164E1B00068856 /* SLLeftPaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLeftPaneView.m; sourceTree = "<group>"; };
+		3E9EF9C91616559800068856 /* SLSiteCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSiteCell.h; sourceTree = "<group>"; };
+		3E9EF9CA1616559800068856 /* SLSiteCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSiteCell.m; sourceTree = "<group>"; };
+		3E9EF9CC161659D300068856 /* SLMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLMainViewController.h; sourceTree = "<group>"; };
+		3E9EF9CD161659D300068856 /* SLMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLMainViewController.m; sourceTree = "<group>"; };
 		3EB3A19E1556993E009D41A6 /* sitelighterlib.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = sitelighterlib.rb; sourceTree = "<group>"; };
 		3EB3A1A0155699AC009D41A6 /* plugins */ = {isa = PBXFileReference; lastKnownFileType = folder; path = plugins; sourceTree = "<group>"; };
 		3EB3A1A215569B3D009D41A6 /* sitelighterlibwrapper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = sitelighterlibwrapper.rb; sourceTree = "<group>"; };
@@ -91,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E9EF9771615EC5300068856 /* QuartzCore.framework in Frameworks */,
 				3EB3A1CC1557357C009D41A6 /* WebKit.framework in Frameworks */,
 				3E8B04FC150CF04B00E8EDFE /* Cocoa.framework in Frameworks */,
 			);
@@ -102,6 +139,7 @@
 		3E8B04EC150CF04A00E8EDFE = {
 			isa = PBXGroup;
 			children = (
+				3E9EF9761615EC5300068856 /* QuartzCore.framework */,
 				3EFEA369152EE72800F85DD9 /* sitelighter.icns */,
 				3E8B0501150CF04B00E8EDFE /* Site Lighter */,
 				3E8B04FA150CF04B00E8EDFE /* Frameworks */,
@@ -153,12 +191,7 @@
 		3E8B0502150CF04B00E8EDFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3E32A404152EE1DD003890C9 /* Play.tiff */,
-				3E32A3FE152EE12D003890C9 /* LinkBack.tiff */,
-				3E32A3FC152EE0FC003890C9 /* minus-8.png */,
-				3E32A3FA152EE0F5003890C9 /* plus-8.png */,
-				3E32A3F8152EE0E6003890C9 /* Linkback Green.tiff */,
-				3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */,
+				3E9EF9B916163A3A00068856 /* images */,
 				3E8B051B150CF08C00E8EDFE /* TODO.txt */,
 				3E8B0503150CF04B00E8EDFE /* Site Lighter-Info.plist */,
 				3E8B0504150CF04B00E8EDFE /* InfoPlist.strings */,
@@ -172,12 +205,12 @@
 		3E8B0524150CF24100E8EDFE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				3E9EF9CC161659D300068856 /* SLMainViewController.h */,
+				3E9EF9CD161659D300068856 /* SLMainViewController.m */,
 				3EB3A1B615571580009D41A6 /* PreferencesController.h */,
 				3EB3A1B715571581009D41A6 /* PreferencesController.m */,
 				3E8B050D150CF04B00E8EDFE /* AppDelegate.h */,
 				3E8B050E150CF04B00E8EDFE /* AppDelegate.m */,
-				3E0D6F4715542F040039551B /* SLMainViewController.h */,
-				3E0D6F4815542F040039551B /* SLMainViewController.m */,
 				3EB3A1CD15573AC2009D41A6 /* WebToPng.h */,
 				3EB3A1CE15573AC2009D41A6 /* WebToPng.m */,
 				3E32A3EC152EDA74003890C9 /* SLSite.h */,
@@ -191,8 +224,50 @@
 			children = (
 				3EB3A1B515571580009D41A6 /* Preferences.xib */,
 				3E8B0510150CF04B00E8EDFE /* MainMenu.xib */,
+				3E9EF9C91616559800068856 /* SLSiteCell.h */,
+				3E9EF9CA1616559800068856 /* SLSiteCell.m */,
+				3E9EF9C316164E1B00068856 /* SLLeftPaneView.h */,
+				3E9EF9C416164E1B00068856 /* SLLeftPaneView.m */,
+				3E9EF9A0161606F900068856 /* SLBrowserFrame.h */,
+				3E9EF9A1161606F900068856 /* SLBrowserFrame.m */,
+				3E9EF9791615ECAC00068856 /* SLBodyView.h */,
+				3E9EF97A1615ECAC00068856 /* SLBodyView.m */,
+				3E9EF97C1615EDEC00068856 /* SLSegmentedView.h */,
+				3E9EF97D1615EDEC00068856 /* SLSegmentedView.m */,
+				3E9EF9B7161639FF00068856 /* stoverlay */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		3E9EF9B7161639FF00068856 /* stoverlay */ = {
+			isa = PBXGroup;
+			children = (
+				3E9EF9961615F7B100068856 /* STOverlayWindow.h */,
+				3E9EF9971615F7B100068856 /* STOverlayWindow.m */,
+				3E9EF9901615F6BF00068856 /* STOverlayController.h */,
+				3E9EF9911615F6BF00068856 /* STOverlayController.m */,
+				3E9EF9931615F6DE00068856 /* STOverlayView.h */,
+				3E9EF9941615F6DE00068856 /* STOverlayView.m */,
+			);
+			name = stoverlay;
+			sourceTree = "<group>";
+		};
+		3E9EF9B916163A3A00068856 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3E9EF9AD16160EEC00068856 /* test.png */,
+				3E9EF9AB16160D9C00068856 /* hallo-thumb.png */,
+				3E9EF9A31616081000068856 /* hallo-original.png */,
+				3E9EF99B1616003C00068856 /* browserframe.png */,
+				3E9EF9991615FE7A00068856 /* magic.png */,
+				3E32A404152EE1DD003890C9 /* Play.tiff */,
+				3E32A3FE152EE12D003890C9 /* LinkBack.tiff */,
+				3E32A3FC152EE0FC003890C9 /* minus-8.png */,
+				3E32A3FA152EE0F5003890C9 /* plus-8.png */,
+				3E32A3F8152EE0E6003890C9 /* Linkback Green.tiff */,
+				3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 		3EB3A19C1556992D009D41A6 /* RubyHelpers */ = {
@@ -273,6 +348,11 @@
 				3EB3A1A315569B3D009D41A6 /* sitelighterlibwrapper.rb in Resources */,
 				3EB3A1A91556CB4F009D41A6 /* ftp_sync.rb in Resources */,
 				3EB3A1B815571581009D41A6 /* Preferences.xib in Resources */,
+				3E9EF99A1615FE7A00068856 /* magic.png in Resources */,
+				3E9EF99C1616003C00068856 /* browserframe.png in Resources */,
+				3E9EF9A41616081000068856 /* hallo-original.png in Resources */,
+				3E9EF9AC16160D9C00068856 /* hallo-thumb.png in Resources */,
+				3E9EF9AE16160EEC00068856 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +367,17 @@
 				3E8B050F150CF04B00E8EDFE /* AppDelegate.m in Sources */,
 				3E0480EF152ED7E500635F1F /* Site_Lighter.xcdatamodeld in Sources */,
 				3E32A3EE152EDA74003890C9 /* SLSite.m in Sources */,
-				3E0D6F4915542F040039551B /* SLMainViewController.m in Sources */,
 				3EB3A1B915571581009D41A6 /* PreferencesController.m in Sources */,
 				3EB3A1CF15573AC2009D41A6 /* WebToPng.m in Sources */,
+				3E9EF97B1615ECAC00068856 /* SLBodyView.m in Sources */,
+				3E9EF97E1615EDEC00068856 /* SLSegmentedView.m in Sources */,
+				3E9EF9921615F6BF00068856 /* STOverlayController.m in Sources */,
+				3E9EF9951615F6DE00068856 /* STOverlayView.m in Sources */,
+				3E9EF9981615F7B200068856 /* STOverlayWindow.m in Sources */,
+				3E9EF9A2161606F900068856 /* SLBrowserFrame.m in Sources */,
+				3E9EF9C516164E1B00068856 /* SLLeftPaneView.m in Sources */,
+				3E9EF9CB1616559900068856 /* SLSiteCell.m in Sources */,
+				3E9EF9CE161659D300068856 /* SLMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

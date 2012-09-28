@@ -59,9 +59,11 @@
 #pragma mark IBActions
 
 -(IBAction)testSettings:(id)sender{
-   [self testFTPSettings];
-    [self setSiteSceenShot];
-}
+    [[NSApp delegate] overlay1:sender];
+    [self testFTPSettings];
+    //[self setSiteSceenShot];
+    [[NSApp delegate] overlay1:sender];
+ }
 
 -(void)setSiteSceenShot {
     SLSite * site = sitesArrayController.selectedObjects.lastObject;
@@ -109,6 +111,8 @@
 }
 
 -(IBAction)optimize:(id)sender{
+    [[NSApp delegate] overlay1:sender];
+
     SLSite * site = sitesArrayController.selectedObjects.lastObject;
 
     if([[NSUserDefaults standardUserDefaults] boolForKey:@"doDownload"])
@@ -130,6 +134,7 @@
     {
         [self uploadTree];
     }
+    [[NSApp delegate] overlay1:sender];
 }
 
 -(IBAction)visitSite:(id)sender{

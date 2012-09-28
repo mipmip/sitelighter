@@ -18,6 +18,7 @@
 @synthesize selectedSite;
 
 
+
 - (void)dealloc
 {
     [__persistentStoreCoordinator release];
@@ -28,7 +29,32 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    self.overlayController = [[STOverlayController alloc] init];
+}
+
+
+- (IBAction)overlay1:(id)sender {
+    if (self.overlayController.isOverlay) {
+        [self.overlayController endOverlay];
+    }
+    else {
+        [self.overlayController beginOverlayToView:self.targetView
+                                         withLabel:@"Loading..."
+                                            radius:0.0
+                                            offset:0.0];
+    }
+}
+
+- (IBAction)overlay2:(id)sender {
+    if (self.overlayController.isOverlay) {
+        [self.overlayController endOverlay];
+    }
+    else {
+        [self.overlayController beginOverlayToView:self.targetView
+                                         withLabel:@"Loading..."
+                                            radius:0.0
+                                              size:NSMakeSize(200.0, 100.0)];
+    }
 }
 
 
@@ -83,6 +109,8 @@
         return __persistentStoreCoordinator;
     }
     
+  
+    
     NSManagedObjectModel *mom = [self managedObjectModel];
     if (!mom) {
         NSLog(@"%@:%@ No model to generate a store from", [self class], NSStringFromSelector(_cmd));
@@ -124,6 +152,9 @@
         [[NSApplication sharedApplication] presentError:error];
         return nil;
     }
+    
+  
+
     __persistentStoreCoordinator = [coordinator retain];
     
     return __persistentStoreCoordinator;

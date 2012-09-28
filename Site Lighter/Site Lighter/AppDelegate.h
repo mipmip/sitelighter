@@ -9,6 +9,8 @@
 #import <Cocoa/Cocoa.h>
 #import "SLSite.h"
 #import "PreferencesController.h"
+#import "STOverlayController.h"
+
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
@@ -21,9 +23,17 @@
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 @property (retain) SLSite* selectedSite;
 
+@property (assign) IBOutlet NSView *targetView;
+@property (strong) STOverlayController *overlayController;
+
+- (IBAction)overlay1:(id)sender;
+- (IBAction)overlay2:(id)sender;
+
+
 - (IBAction)showPreferences:(id)sender;
 - (IBAction)saveAction:(id)sender;
 //- (IBAction)newSite:(id)sender;
+- (IBAction)addSite:(id)sender;
 - (NSURL *)applicationFilesDirectory;
 
 @end
