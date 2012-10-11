@@ -15,6 +15,9 @@
 		3E32A3FD152EE0FC003890C9 /* minus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3FC152EE0FC003890C9 /* minus-8.png */; };
 		3E32A3FF152EE12D003890C9 /* LinkBack.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3FE152EE12D003890C9 /* LinkBack.tiff */; };
 		3E32A405152EE1DD003890C9 /* Play.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A404152EE1DD003890C9 /* Play.tiff */; };
+		3E7BC9F916272F3C0092BF5E /* creating a lightbox effect.pages in Resources */ = {isa = PBXBuildFile; fileRef = 3E7BC9F716272F3C0092BF5E /* creating a lightbox effect.pages */; };
+		3E7BC9FA16272F3C0092BF5E /* creating-a-lightbox-effect.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3E7BC9F816272F3C0092BF5E /* creating-a-lightbox-effect.pdf */; };
+		3E7BCA05162732A70092BF5E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7BCA04162732A70092BF5E /* Quartz.framework */; };
 		3E8B04FC150CF04B00E8EDFE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E8B04FB150CF04B00E8EDFE /* Cocoa.framework */; };
 		3E8B0506150CF04B00E8EDFE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3E8B0504150CF04B00E8EDFE /* InfoPlist.strings */; };
 		3E8B0508150CF04B00E8EDFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8B0507150CF04B00E8EDFE /* main.m */; };
@@ -71,6 +74,9 @@
 		3E32A3FC152EE0FC003890C9 /* minus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus-8.png"; sourceTree = "<group>"; };
 		3E32A3FE152EE12D003890C9 /* LinkBack.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LinkBack.tiff; sourceTree = "<group>"; };
 		3E32A404152EE1DD003890C9 /* Play.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Play.tiff; sourceTree = "<group>"; };
+		3E7BC9F716272F3C0092BF5E /* creating a lightbox effect.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "creating a lightbox effect.pages"; sourceTree = "<group>"; };
+		3E7BC9F816272F3C0092BF5E /* creating-a-lightbox-effect.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "creating-a-lightbox-effect.pdf"; sourceTree = "<group>"; };
+		3E7BCA04162732A70092BF5E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		3E8B04F7150CF04B00E8EDFE /* Site Lighter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Site Lighter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8B04FB150CF04B00E8EDFE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		3E8B04FE150CF04B00E8EDFE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -127,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E7BCA05162732A70092BF5E /* Quartz.framework in Frameworks */,
 				3E9EF9771615EC5300068856 /* QuartzCore.framework in Frameworks */,
 				3EB3A1CC1557357C009D41A6 /* WebKit.framework in Frameworks */,
 				3E8B04FC150CF04B00E8EDFE /* Cocoa.framework in Frameworks */,
@@ -139,7 +146,6 @@
 		3E8B04EC150CF04A00E8EDFE = {
 			isa = PBXGroup;
 			children = (
-				3E9EF9761615EC5300068856 /* QuartzCore.framework */,
 				3EFEA369152EE72800F85DD9 /* sitelighter.icns */,
 				3E8B0501150CF04B00E8EDFE /* Site Lighter */,
 				3E8B04FA150CF04B00E8EDFE /* Frameworks */,
@@ -158,6 +164,8 @@
 		3E8B04FA150CF04B00E8EDFE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E7BCA04162732A70092BF5E /* Quartz.framework */,
+				3E9EF9761615EC5300068856 /* QuartzCore.framework */,
 				3E8B04FB150CF04B00E8EDFE /* Cocoa.framework */,
 				3E8B04FD150CF04B00E8EDFE /* Other Frameworks */,
 			);
@@ -191,6 +199,8 @@
 		3E8B0502150CF04B00E8EDFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3E7BC9F716272F3C0092BF5E /* creating a lightbox effect.pages */,
+				3E7BC9F816272F3C0092BF5E /* creating-a-lightbox-effect.pdf */,
 				3E9EF9B916163A3A00068856 /* images */,
 				3E8B051B150CF08C00E8EDFE /* TODO.txt */,
 				3E8B0503150CF04B00E8EDFE /* Site Lighter-Info.plist */,
@@ -353,6 +363,8 @@
 				3E9EF9A41616081000068856 /* hallo-original.png in Resources */,
 				3E9EF9AC16160D9C00068856 /* hallo-thumb.png in Resources */,
 				3E9EF9AE16160EEC00068856 /* test.png in Resources */,
+				3E7BC9F916272F3C0092BF5E /* creating a lightbox effect.pages in Resources */,
+				3E7BC9FA16272F3C0092BF5E /* creating-a-lightbox-effect.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

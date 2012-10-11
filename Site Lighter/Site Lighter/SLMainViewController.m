@@ -21,13 +21,18 @@
 @synthesize sitesArrayController;
 @synthesize showDebugMessages;
 @synthesize screenshotView;
-
+@synthesize pdfView;
+@synthesize pdfWindow;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-
+        
+        if([[NSUserDefaults standardUserDefaults] boolForKey:@"showDebugMessages"])
+        {
+            showDebugMessages = YES;
+        }
     }
     
     return self;
@@ -39,22 +44,21 @@
     [SLSite defaultSite];
     self.sitesTable.delegate = self;
     showDebugMessages = NO;
-    if([[NSUserDefaults standardUserDefaults] boolForKey:@"showDebugMessages"])
-    {
-        showDebugMessages = YES;
-    }
-
-}
-
-
-- (void)xxxcontrolTextDidChange:(NSNotification *)aNotification
-{
-    NSTextField* textField = [aNotification object];
-    NSString* newValue = [textField stringValue];
     
-    NSLog(@"%s: %@", __PRETTY_FUNCTION__, newValue);
-    // TODO: React to changed text field
+
 }
+
+-(IBAction)openTutor:(id)sender{
+    [pdfWindow makeKeyAndOrderFront:sender];
+    
+    NSBundle* myBundle = [NSBundle mainBundle];
+    NSString* myPdfPath = [myBundle pathForResource:@"creating-a-lightbox-effect" ofType:@"pdf"];
+    NSURL * mydocUrl = [NSURL fileURLWithPath:myPdfPath];
+
+    
+    [pdfView setDocument:[[PDFDocument alloc] initWithURL:mydocUrl]];   
+}
+
 
 
 - (void)controlTextDidEndEditing:(NSNotification *)aNotification
@@ -66,7 +70,6 @@
     SLSite * site = sitesArrayController.selectedObjects.lastObject;
     [site setValue: newValue forKey:@"url"];
 
-    NSLog(@"%@",site);
     [self setSiteSceenShot];
 
 }
