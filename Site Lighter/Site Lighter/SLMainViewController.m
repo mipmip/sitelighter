@@ -20,6 +20,7 @@
 @synthesize sitesTable;
 @synthesize sitesArrayController;
 @synthesize showDebugMessages;
+@synthesize screenshotView;
 
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
@@ -45,23 +46,37 @@
 
 }
 
-- (void) tableViewSelectionDidChange:(NSNotification *)notification{
-    NSTableView* table = [notification object];
-    NSInteger selection = table.selectedRow;
-    NSArray* sites = [self.sitesArrayController arrangedObjects];
+
+- (void)xxxcontrolTextDidChange:(NSNotification *)aNotification
+{
+    NSTextField* textField = [aNotification object];
+    NSString* newValue = [textField stringValue];
     
-    SLSite * site = [sites objectAtIndex:selection];
-    [[NSApp delegate] setValue:site forKey: @"selectedSite"];
-    
-    NSLog(@"%@",site);
+    NSLog(@"%s: %@", __PRETTY_FUNCTION__, newValue);
+    // TODO: React to changed text field
 }
+
+
+- (void)controlTextDidEndEditing:(NSNotification *)aNotification
+{
+  
+    NSTextField* textField = [aNotification object];
+    NSString* newValue = [textField stringValue];
+    
+    SLSite * site = sitesArrayController.selectedObjects.lastObject;
+    [site setValue: newValue forKey:@"url"];
+
+    NSLog(@"%@",site);
+    [self setSiteSceenShot];
+
+}
+
 
 #pragma mark IBActions
 
 -(IBAction)testSettings:(id)sender{
     [[NSApp delegate] overlay1:sender];
     [self testFTPSettings];
-    //[self setSiteSceenShot];
     [[NSApp delegate] overlay1:sender];
  }
 
@@ -69,30 +84,28 @@
     SLSite * site = sitesArrayController.selectedObjects.lastObject;
     
     NSString * filename = [self genRandStringLength:5];
-    NSString * newimagefilename = [NSString stringWithFormat:@"%@%@.png",[[[NSApp delegate] applicationFilesDirectory]absoluteString],filename];
-    NSString * newimagepath = [NSString stringWithFormat:@"%@",[[[NSApp delegate] applicationFilesDirectory]absoluteString],filename];
-    newimagefilename = [newimagefilename substringFromIndex:NSMaxRange([newimagefilename rangeOfString:@"file://localhost"])];
-    newimagepath = [newimagepath substringFromIndex:NSMaxRange([newimagepath rangeOfString:@"file://localhost"])];
-    
+    NSString * path = [[[NSApp delegate] applicationFilesDirectory] path];
+       
     NSLog(@"fil:%@",filename);
-    NSLog(@"fil:%@",newimagefilename);
-    NSLog(@"fil:%@",newimagepath);
+    NSLog(@"path:%@",path);
+    
     NSURL * url = [NSURL URLWithString:[site valueForKey:@"url"]];
     
-    [[[WebToPng alloc] init] takeSnapshotOfURL:url   
-                                        toPath:@"/tmp"
-                                          name:@"hallo"  
-                                      original:YES 
-                                         thumb:NO 
-                                       clipped:NO
-                                         scale:0.25 
-                                         width:200 
-                                        height:150];
+    [[[WebToPng alloc] init] takeSnapshotOfURL:url
+                           toPath:path
+                             name:filename
+                    viewToUpdate:screenshotView
+                         original:YES
+                            thumb:YES
+                          clipped:YES
+                            scale:0.25
+                            width:200
+                           height:150];
     
-    [site setValue: @"/tmp/hallo-original.png" forKey:@"screenshot"];
-    
-    
-    
+
+    NSString * completePath = [NSString stringWithFormat:@"%@/%@-thumb.png",path,filename];
+    [site setValue: completePath forKey:@"screenshot"];
+    NSLog(@"completepath:%@",completePath);
 }
 
 
@@ -111,6 +124,7 @@
 }
 
 -(IBAction)optimize:(id)sender{
+
     [[NSApp delegate] overlay1:sender];
 
     SLSite * site = sitesArrayController.selectedObjects.lastObject;
@@ -122,7 +136,6 @@
     
     if([[site valueForKey:@"applyLightifyPlugin"] boolValue])
     {
-//        NSLog("Lightify:%@",[site valueForKey:@"applyLightifyPlugin"]);
         [self applyLightify];    
     }
     
@@ -135,17 +148,14 @@
         [self uploadTree];
     }
     [[NSApp delegate] overlay1:sender];
+    [self setSiteSceenShot];
 }
 
 -(IBAction)visitSite:(id)sender{
     SLSite * site = sitesArrayController.selectedObjects.lastObject;    
-    
     NSURL * url = [NSURL URLWithString:[site valueForKey:@"url"]];
     
     [[NSWorkspace sharedWorkspace] openURL:url];
-
-    
-
 }
 
 #pragma mark ruby wrapper stuff
@@ -467,7 +477,6 @@
     }
     else {
 
-      //  NSLog(@"title exists");
         NSString *title = nil;
        
         NSScanner *theScanner = [NSScanner scannerWithString:fileText];
@@ -478,7 +487,6 @@
             [theScanner scanCharactersFromSet:charset intoString:nil];
             [theScanner scanUpToString:@"\" />" intoString:&title];
         }
-        //NSLog(@"title exists %@",title);        
 
         
         NSString *sub1 = [fileText substringToIndex:[fileText rangeOfString:search].location];

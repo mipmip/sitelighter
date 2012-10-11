@@ -11,7 +11,9 @@
 
 @interface WebToPng : NSObject{
     
-    WebView *myWebView;  
+    WebView *myWebView;
+    NSImageView *updateImageView;
+
     NSString *path;  
     NSString *name;  
     BOOL original;  
@@ -22,8 +24,9 @@
     float height;  
 }  
 
-@property (retain) WebView *myWebView;  
-@property (retain) NSString *path;  
+@property (retain) WebView *myWebView;
+@property (retain) NSImageView *updateImageView;
+@property (retain) NSString *path;
 @property (retain) NSString *name;  
 @property (assign) BOOL original;  
 @property (assign) BOOL thumb;  
@@ -34,8 +37,9 @@
 
 - (void)takeSnapshotOfURL:(NSURL*)url  
                    toPath:(NSString *)thePath   
-                     name:(NSString *)theName  
-                 original:(BOOL)theOriginal   
+                     name:(NSString *)theName
+             viewToUpdate:(NSImageView *)myImageView
+                 original:(BOOL)theOriginal
                     thumb:(BOOL)theThumb   
                   clipped:(BOOL)theClipped   
                     scale:(float)theScale  

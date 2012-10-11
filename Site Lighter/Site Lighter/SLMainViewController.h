@@ -11,6 +11,7 @@
 @interface SLMainViewController : NSViewController <NSTableViewDelegate>
 
 @property (retain) IBOutlet NSTableView* sitesTable;
+@property (retain) IBOutlet NSImageView* screenshotView;
 @property (retain) IBOutlet NSArrayController* sitesArrayController;
 @property BOOL showDebugMessages;
 

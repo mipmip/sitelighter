@@ -10,11 +10,13 @@
 
 @implementation WebToPng
 
-@synthesize myWebView, path, name, original, thumb, clipped, scale, width, height;  
+@synthesize myWebView, path, name, original, thumb, clipped, scale, width, height,updateImageView;
 
 - (void)takeSnapshotOfURL:(NSURL *)url  
                    toPath:(NSString *)thePath   
-                     name:(NSString *)theName  
+                     name:(NSString *)theName
+             viewToUpdate:(NSImageView *)myImageView
+
                  original:(BOOL)theOriginal   
                     thumb:(BOOL)theThumb   
                   clipped:(BOOL)theClipped   
@@ -23,13 +25,17 @@
                    height:(float)theHeight  
 {  
     path = thePath;  
-    name = theName;  
+    name = theName;
+    updateImageView = myImageView;
     original = theOriginal;  
     thumb = theThumb;  
     clipped = theClipped;  
     scale = theScale;  
     width = theWidth;
     height = theHeight;  
+    
+    [name retain];
+    [path retain];
     
     NSRect rect = NSMakeRect(0,0,100,100);
     
@@ -53,7 +59,10 @@
 
 - (void)webView:(WebView *)sender didFinishLoadForFrame:(WebFrame *)frame {  
     
-    NSView *view = [[[myWebView mainFrame] frameView] documentView];  
+    NSLog(@"name: %@",name);
+    NSLog(@"path: %@",path);
+
+    NSView *view = [[[myWebView mainFrame] frameView] documentView];
     
     // Resize  
     [[view window] setContentSize:[view bounds].size];  
@@ -63,8 +72,7 @@
     [view unlockFocus];  
     
     if (original) {  
-        [[bitmapData representationUsingType:NSPNGFileType properties:nil]  
-         writeToFile:[NSString stringWithFormat:@"%@/%@-original.png", path, name] atomically:YES];  
+        [[bitmapData representationUsingType:NSPNGFileType properties:nil]  writeToFile:[NSString stringWithFormat:@"%@/%@-original.png", path, name] atomically:YES];
     }  
     
     // If neither thumb nor clipped are requested, we return  
@@ -96,7 +104,9 @@
     // save thumb  
     if (thumb) {  
         [[thumbOutput representationUsingType:NSPNGFileType properties:nil]  
-         writeToFile:[NSString stringWithFormat:@"%@/%@-thumb.png", path, name] atomically:YES];  
+         writeToFile:[NSString stringWithFormat:@"%@/%@-thumb.png", path, name] atomically:YES];
+        NSImage * newScreenshot =[[NSImage alloc] initWithContentsOfFile:[NSString stringWithFormat:@"%@/%@-thumb.png", path, name]];
+        [updateImageView setImage:newScreenshot];
     }  
     
     // save clipped  
