@@ -37,7 +37,7 @@
     [name retain];
     [path retain];
     
-    NSRect rect = NSMakeRect(0,0,100,100);
+    NSRect rect = NSMakeRect(0,0,600,600);
     
     NSWindow *window = [[NSWindow alloc]  
                         initWithContentRect:rect  

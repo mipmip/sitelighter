@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "EMKeychainItem.h"
+#import "SSKeychain.h"
 
 @implementation AppDelegate
 
@@ -30,7 +32,18 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     self.overlayController = [[STOverlayController alloc] init];
+    
+    
+    //Grab the keychain item.
+    //EMInternetKeychainItem *keychainItem = [EMInternetKeychainItem internetKeychainItemForServer:@"test.searchandreplace.nl" withUsername:@"lingewoudftp6" path:@"" port:21 protocol:kSecProtocolTypeFTP];
+    //NSLog(@"keychainItem: %@",[keychainItem label]);
+    
+    //NSArray *allaccs = [SSKeychain allAccounts];
+    //NSLog(@"%@",allaccs);
+    
 }
+
+
 
 
 - (IBAction)overlay1:(id)sender {
@@ -39,7 +52,7 @@
     }
     else {
         [self.overlayController beginOverlayToView:self.targetView
-                                         withLabel:@"Loading..."
+                                         withLabel:@"Working..."
                                             radius:0.0
                                             offset:0.0];
     }
@@ -51,7 +64,7 @@
     }
     else {
         [self.overlayController beginOverlayToView:self.targetView
-                                         withLabel:@"Loading..."
+                                         withLabel:@"Working..."
                                             radius:0.0
                                               size:NSMakeSize(200.0, 100.0)];
     }

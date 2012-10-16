@@ -114,6 +114,25 @@
 
 
 
+- (void) doAfterOptimize:(NSAlert *)alert returnCode:(int)returnCode contextInfo:(void *)contextInfo
+{
+   	if(returnCode == 0)
+	{
+		[self visitSite:self];
+	}
+}
+
+- (void) doAfterAlert:(NSAlert *)alert returnCode:(int)returnCode contextInfo:(void *)contextInfo
+{
+	if(returnCode == 0)
+	{
+		[self visitSite:self];
+	}
+}
+
+
+
+
 -(NSString *) genRandStringLength: (int) len {
     NSString *letters = @"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
@@ -128,10 +147,14 @@
 
 -(IBAction)optimize:(id)sender{
 
+    
     [[NSApp delegate] overlay1:sender];
 
     SLSite * site = sitesArrayController.selectedObjects.lastObject;
 
+    //[self getLastPathSegmentFromIndexWithFTP];
+    //return;
+    
     if([[NSUserDefaults standardUserDefaults] boolForKey:@"doDownload"])
     {
         [self refreshAndDownloadTree];
@@ -152,6 +175,16 @@
     }
     [[NSApp delegate] overlay1:sender];
     [self setSiteSceenShot];
+    
+    NSAlert *alert =
+    [NSAlert
+     alertWithMessageText:@"Site optimization finished"
+     defaultButton:@"Close"
+     alternateButton:@"Visit website"
+     otherButton:nil
+     informativeTextWithFormat:@"Your site optimization has finished."];
+    
+    [alert beginSheetModalForWindow:[[NSApp delegate] window] modalDelegate:self didEndSelector:@selector(doAfterOptimize:returnCode:contextInfo:) contextInfo:nil];
 }
 
 -(IBAction)visitSite:(id)sender{
@@ -164,7 +197,78 @@
 #pragma mark ruby wrapper stuff
 
 -(void)testFTPSettings{
-    if(showDebugMessages) NSLog(@"test ftp:");    
+    if(showDebugMessages) NSLog(@"test ftp:");
+    
+    SLSite * site = sitesArrayController.selectedObjects.lastObject;
+    NSString * wrapperPath = [NSString stringWithFormat:@"%@/Contents/Resources",[[NSBundle mainBundle] bundlePath]];
+    NSString * rubyExec = @"/usr/bin/ruby";
+    NSString * rubyScriptPath = [NSString stringWithFormat:@"%@/sitelighterlibwrapper.rb",wrapperPath];
+    
+    NSTask *rubyProcess = [[NSTask alloc] init];
+    [rubyProcess setCurrentDirectoryPath:wrapperPath];
+    [rubyProcess setLaunchPath: rubyExec];
+    [rubyProcess setArguments: [NSArray arrayWithObjects:
+                                rubyScriptPath,
+                                @"--action",@"test",
+                                @"--localdir",[self getLocalDir],
+                                @"--server",[site valueForKey:@"ftpServer"],
+                                @"--user",[site valueForKey:@"ftpUser"],
+                                @"--pass",[site valueForKey:@"ftpPass"],
+                                @"--path",[site valueForKey:@"ftpPath"],
+                                nil]];
+    [rubyProcess launch];
+    
+    [rubyProcess waitUntilExit];
+    int status = [rubyProcess terminationStatus];
+    
+    if (status == 0){
+        
+        NSAlert *alert =
+        [NSAlert
+         alertWithMessageText:@"Site test"
+         defaultButton:NSLocalizedStringFromTable(@"OK", @"Errors", @"Standard dialog dismiss button.")
+         alternateButton:nil
+         otherButton:nil
+         informativeTextWithFormat:@"Connection was succesfull."];
+        
+        [alert beginSheetModalForWindow:[[NSApp delegate] window] modalDelegate:self didEndSelector:@selector(doAfterAlert:returnCode:contextInfo:) contextInfo:nil];
+
+//        NSLog(@"Task test succeeded.");
+    }
+    else if (status == 1) {
+        
+        
+        NSAlert *alert =
+        [NSAlert
+         alertWithMessageText:@"Site test"
+         defaultButton:NSLocalizedStringFromTable(@"OK", @"Errors", @"Standard dialog dismiss button.")
+         alternateButton:nil
+         otherButton:nil
+         informativeTextWithFormat:@"Connection failed."];
+        
+        [alert beginSheetModalForWindow:[[NSApp delegate] window] modalDelegate:self didEndSelector:@selector(doAfterAlert:returnCode:contextInfo:) contextInfo:nil];
+
+    }
+    else if (status == 2) {
+
+        NSAlert *alert =
+        [NSAlert
+         alertWithMessageText:@"Site test"
+         defaultButton:NSLocalizedStringFromTable(@"OK", @"Errors", @"Standard dialog dismiss button.")
+         alternateButton:nil
+         otherButton:nil
+         informativeTextWithFormat:@"Path is incorrect."];
+        
+        [alert beginSheetModalForWindow:[[NSApp delegate] window] modalDelegate:self didEndSelector:@selector(doAfterAlert:returnCode:contextInfo:) contextInfo:nil];
+
+       // NSLog(@"Task failed path error. %i",status);
+    }
+    
+    [rubyProcess release];
+}
+
+-(NSString *)getLastPathSegmentFromIndexWithFTP{
+    if(showDebugMessages) NSLog(@"get index ftp:");    
 
     SLSite * site = sitesArrayController.selectedObjects.lastObject;
     NSString * wrapperPath = [NSString stringWithFormat:@"%@/Contents/Resources",[[NSBundle mainBundle] bundlePath]];
@@ -176,8 +280,8 @@
     [rubyProcess setLaunchPath: rubyExec];
     [rubyProcess setArguments: [NSArray arrayWithObjects:
                                 rubyScriptPath,
-                                @"--action",@"test",
-                                @"--localdir",[self getLocalDir],
+                                @"--action",@"download",
+                                @"--localdir",[self getLocalDir2],
                                 @"--server",[site valueForKey:@"ftpServer"],
                                 @"--user",[site valueForKey:@"ftpUser"],
                                 @"--pass",[site valueForKey:@"ftpPass"],
@@ -188,8 +292,44 @@
     [rubyProcess waitUntilExit];
     int status = [rubyProcess terminationStatus];
     
+
     if (status == 0){
-        NSLog(@"Task test succeeded.");
+        NSLog(@"Task get Index succeeded.");
+
+        NSLog(@"nw checking:%@",[NSString stringWithFormat:@"%@/%@",[self getLocalDir2],@"index.html"]);
+
+        //Now het path segment
+        if([[NSFileManager defaultManager] fileExistsAtPath: [NSString stringWithFormat:@"%@/%@",[self getLocalDir2],@"index.html"] isDirectory: NO])
+        {
+            
+            NSString *filePath = [[self getLocalDir2] stringByAppendingPathComponent:@"index.html"];
+            NSError *anError;
+            NSString *fileText = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&anError];
+            if (!fileText) {
+                NSLog(@"%@", [anError localizedDescription]);
+            }
+            else
+            {
+                //NSString * search = @"<meta http-equiv=\"refresh\" content=\"";
+                
+                NSString * search = @"<meta http-equiv=\"refresh\" content=\"0;url= ";
+                if([fileText rangeOfString:search].location == NSNotFound)
+                {
+                    NSLog(@"http-equiv not founnd:%@",fileText);
+                    
+                }
+                else {
+                    NSString *sub1 = [fileText substringFromIndex:[fileText rangeOfString:search].location+43];
+                    NSString *sub2 = [sub1 substringToIndex:[sub1 rangeOfString:@"/"].location];
+                    
+                    NSLog(@"redirect:%@",sub1);
+                    NSLog(@"redirect:%@",sub2);
+                    return sub2;
+                }
+            }
+        }
+        
+        
     }
     else if (status == 1) {
         NSLog(@"Task failed connection error. %i",status);
@@ -197,12 +337,18 @@
     else if (status == 2) {
         NSLog(@"Task failed path error. %i",status);
     }
+    return @"";
     
+
+
     [rubyProcess release];
 }
 
 -(void)refreshAndDownloadTree{
-    if(showDebugMessages) NSLog(@"refresh and download:");    
+    
+    NSString *extraPathSegment = [self getLastPathSegmentFromIndexWithFTP];
+    
+    if(showDebugMessages) NSLog(@"refresh and download:");
 
     SLSite * site = sitesArrayController.selectedObjects.lastObject;
     
@@ -221,7 +367,7 @@
                                 @"--server",[site valueForKey:@"ftpServer"],
                                 @"--user",[site valueForKey:@"ftpUser"],
                                 @"--pass",[site valueForKey:@"ftpPass"],
-                                @"--path",[site valueForKey:@"ftpPath"],                                
+                                @"--path",[NSString stringWithFormat:@"%@/%@",[site valueForKey:@"ftpPath"],extraPathSegment],
                                 nil]];    
     [rubyProcess launch];        
     
@@ -279,6 +425,8 @@
 -(void)uploadTree{
     if(showDebugMessages) NSLog(@"uploadTree:");    
 
+    NSString *extraPathSegment = [self getLastPathSegmentFromIndexWithFTP];
+
     SLSite * site = sitesArrayController.selectedObjects.lastObject;
     
     NSString * wrapperPath = [NSString stringWithFormat:@"%@/Contents/Resources",[[NSBundle mainBundle] bundlePath]];
@@ -296,8 +444,8 @@
                                 @"--server",[site valueForKey:@"ftpServer"],
                                 @"--user",[site valueForKey:@"ftpUser"],
                                 @"--pass",[site valueForKey:@"ftpPass"],
-                                @"--path",[site valueForKey:@"ftpPath"],                                
-                                nil]];    
+                                @"--path",[NSString stringWithFormat:@"%@/%@",[site valueForKey:@"ftpPath"],extraPathSegment],
+                                nil]];
     [rubyProcess launch];        
     
     [rubyProcess waitUntilExit];
@@ -318,6 +466,11 @@
 
 -(NSString *)getLocalDir{
     NSString * localDir = @"/tmp/sitelighter";
+    return localDir;
+}
+
+-(NSString *)getLocalDir2{
+    NSString * localDir = @"/tmp/sitelighter2";
     return localDir;
 }
 
@@ -375,6 +528,10 @@
 
 -(NSString *)replaceHeader:(NSString*)fileText :(NSString*)headerCode :(NSString*)keywords :(NSString*)description{
     
+    if(!headerCode) headerCode=@"";
+    if(!keywords) keywords=@"";
+    if(!description) description=@"";
+    
     if(showDebugMessages) NSLog(@"replaceHeader:");
     
     NSString *metakeywords =@"";
@@ -411,6 +568,10 @@
 }
 
 -(NSString *)replaceFooter:(NSString*)fileText :(NSString*)footerCode :(NSString*)googleCode{
+    
+    if(!footerCode) footerCode=@"";
+    if(!googleCode) googleCode=@"";
+    
         if(showDebugMessages) NSLog(@"replaceFooter:");    
     NSString *replacedString;
     NSString *search = @"<!-- START SiteLighter FooterCode -->";
@@ -454,8 +615,11 @@
 }
 
 -(NSString *)replaceTitle:(NSString*)fileText :(NSString*)prefix :(NSString *)postfix{
-    if(showDebugMessages) NSLog(@"replaceTitle:");    
-
+    if(showDebugMessages) NSLog(@"replaceTitle:");
+    
+    if(!prefix) prefix=@"";
+    if(!postfix) postfix=@"";
+    
     NSString *replacedString;
     NSString *search = @"<!-- START SiteLighter TitleCode -->";
     NSString *search2 = @"<!-- END SiteLighter TitleCode -->";

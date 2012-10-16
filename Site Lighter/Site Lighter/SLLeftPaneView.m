@@ -23,9 +23,7 @@
 - (void)drawRect:(NSRect)dirtyRect
 {
     [super drawRect:dirtyRect];
-    //NSColor *myColor = [NSColor colorWithCalibratedRed:redValue green:greenValue blue:blueValue alpha:1.0f];
     [[NSColor colorWithDeviceRed: 225.0/255.0 green: 229.0/255.0 blue: 234.0/255.0 alpha: 1.0] setFill];
-    //[[NSColor blackColor] setFill];
     NSRectFill(dirtyRect); // Drawing code here.
 }
 

@@ -44,7 +44,7 @@ end
 optparse.parse!
 
 iwcconf = {}
-iwcconf['localdir'] 				= options[:localdir]
+iwcconf['localdir'] 			= options[:localdir]
 iwcconf['ftpServer'] 			= options[:server]
 iwcconf['ftpUser'] 				= options[:user]
 iwcconf['ftpPass'] 				= options[:pass]
