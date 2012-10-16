@@ -1713,7 +1713,7 @@
 																</object>
 																<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 															</object>
-															<object class="NSButton" id="855129633">
+															<object class="NSButton" id="322322690">
 																<reference key="NSNextResponder" ref="159500019"/>
 																<int key="NSvFlags">268</int>
 																<string key="NSFrame">{{159, 195}, {162, 32}}</string>
@@ -1721,13 +1721,13 @@
 																<reference key="NSWindow"/>
 																<string key="NSReuseIdentifierKey">_NS:9</string>
 																<bool key="NSEnabled">YES</bool>
-																<object class="NSButtonCell" key="NSCell" id="219374111">
+																<object class="NSButtonCell" key="NSCell" id="4798844">
 																	<int key="NSCellFlags">67108864</int>
 																	<int key="NSCellFlags2">134217728</int>
 																	<string key="NSContents">Test connection</string>
 																	<reference key="NSSupport" ref="500243406"/>
 																	<string key="NSCellIdentifier">_NS:9</string>
-																	<reference key="NSControlView" ref="855129633"/>
+																	<reference key="NSControlView" ref="322322690"/>
 																	<int key="NSButtonFlags">-2034483200</int>
 																	<int key="NSButtonFlags2">129</int>
 																	<reference key="NSNormalImage" ref="326459600"/>
@@ -2160,8 +2160,8 @@
 			<object class="NSWindowTemplate" id="1053696680">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{1876, -14}, {628, 598}}</string>
-				<int key="NSWTFlags">-461896704</int>
+				<string key="NSWindowRect">{{100, 455}, {628, 598}}</string>
+				<int key="NSWTFlags">-465042432</int>
 				<string key="NSWindowTitle">Creating a lightbox effect in iWeb</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
@@ -2179,6 +2179,7 @@
 							</set>
 							<string key="NSFrameSize">{628, 598}</string>
 							<reference key="NSSuperview" ref="1056012932"/>
+							<reference key="NSWindow"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<int key="DisplayMode">1</int>
 							<bool key="PageBreaks">YES</bool>
@@ -2188,6 +2189,7 @@
 					</array>
 					<string key="NSFrameSize">{628, 598}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="195094304"/>
 					<string key="NSReuseIdentifierKey">_NS:21</string>
 				</object>
@@ -2962,7 +2964,7 @@
 					<object class="IBActionConnection" key="connection">
 						<string key="label">testSettings:</string>
 						<reference key="source" ref="600378332"/>
-						<reference key="destination" ref="855129633"/>
+						<reference key="destination" ref="322322690"/>
 					</object>
 					<int key="connectionID">1804</int>
 				</object>
@@ -3933,7 +3935,7 @@
 							<reference ref="368929812"/>
 							<reference ref="230480874"/>
 							<reference ref="590178214"/>
-							<reference ref="855129633"/>
+							<reference ref="322322690"/>
 						</array>
 						<reference key="parent" ref="334972944"/>
 					</object>
@@ -4346,16 +4348,16 @@
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">1802</int>
-						<reference key="object" ref="855129633"/>
+						<reference key="object" ref="322322690"/>
 						<array class="NSMutableArray" key="children">
-							<reference ref="219374111"/>
+							<reference ref="4798844"/>
 						</array>
 						<reference key="parent" ref="159500019"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">1803</int>
-						<reference key="object" ref="219374111"/>
-						<reference key="parent" ref="855129633"/>
+						<reference key="object" ref="4798844"/>
+						<reference key="parent" ref="322322690"/>
 					</object>
 				</array>
 			</object>
@@ -4406,6 +4408,8 @@
 				<string key="1691.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1785.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="1786.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<boolean value="NO" key="1794.IBNSWindowAutoPositionCentersHorizontal"/>
+				<boolean value="NO" key="1794.IBNSWindowAutoPositionCentersVertical"/>
 				<string key="1794.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<boolean value="NO" key="1794.NSWindowTemplate.visibleAtLaunch"/>
 				<string key="1795.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -4735,7 +4739,7 @@
 			<string key="NSQuickLookTemplate">{21, 16}</string>
 			<string key="NSSwitch">{15, 15}</string>
 			<string key="browserframe">{152, 120}</string>
-			<string key="hallo-thumb">{138, 241}</string>
+			<string key="hallo-thumb">{128, 128}</string>
 			<string key="magic">{15, 15}</string>
 			<string key="test">{15, 14}</string>
 		</dictionary>

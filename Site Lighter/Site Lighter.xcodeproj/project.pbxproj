@@ -9,14 +9,8 @@
 /* Begin PBXBuildFile section */
 		3E0480EF152ED7E500635F1F /* Site_Lighter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E0480EC152ED7E500635F1F /* Site_Lighter.xcdatamodeld */; };
 		3E32A3EE152EDA74003890C9 /* SLSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E32A3ED152EDA74003890C9 /* SLSite.m */; };
-		3E32A3F7152EE0D9003890C9 /* Green Ball.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */; };
-		3E32A3F9152EE0E6003890C9 /* Linkback Green.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3F8152EE0E6003890C9 /* Linkback Green.tiff */; };
 		3E32A3FB152EE0F5003890C9 /* plus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3FA152EE0F5003890C9 /* plus-8.png */; };
 		3E32A3FD152EE0FC003890C9 /* minus-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3FC152EE0FC003890C9 /* minus-8.png */; };
-		3E32A3FF152EE12D003890C9 /* LinkBack.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A3FE152EE12D003890C9 /* LinkBack.tiff */; };
-		3E32A405152EE1DD003890C9 /* Play.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 3E32A404152EE1DD003890C9 /* Play.tiff */; };
-		3E7BC9F916272F3C0092BF5E /* creating a lightbox effect.pages in Resources */ = {isa = PBXBuildFile; fileRef = 3E7BC9F716272F3C0092BF5E /* creating a lightbox effect.pages */; };
-		3E7BC9FA16272F3C0092BF5E /* creating-a-lightbox-effect.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3E7BC9F816272F3C0092BF5E /* creating-a-lightbox-effect.pdf */; };
 		3E7BCA05162732A70092BF5E /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7BCA04162732A70092BF5E /* Quartz.framework */; };
 		3E7BCA1F1627757E0092BF5E /* EMKeychainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E7BCA1E1627757E0092BF5E /* EMKeychainItem.m */; };
 		3E7BCA22162776B80092BF5E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E7BCA21162776B80092BF5E /* Carbon.framework */; };
@@ -38,8 +32,6 @@
 		3E9EF99A1615FE7A00068856 /* magic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF9991615FE7A00068856 /* magic.png */; };
 		3E9EF99C1616003C00068856 /* browserframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF99B1616003C00068856 /* browserframe.png */; };
 		3E9EF9A2161606F900068856 /* SLBrowserFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9A1161606F900068856 /* SLBrowserFrame.m */; };
-		3E9EF9A41616081000068856 /* hallo-original.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF9A31616081000068856 /* hallo-original.png */; };
-		3E9EF9AC16160D9C00068856 /* hallo-thumb.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF9AB16160D9C00068856 /* hallo-thumb.png */; };
 		3E9EF9AE16160EEC00068856 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF9AD16160EEC00068856 /* test.png */; };
 		3E9EF9C516164E1B00068856 /* SLLeftPaneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9C416164E1B00068856 /* SLLeftPaneView.m */; };
 		3E9EF9CB1616559900068856 /* SLSiteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9CA1616559800068856 /* SLSiteCell.m */; };
@@ -52,6 +44,7 @@
 		3EB3A1B915571581009D41A6 /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3A1B715571581009D41A6 /* PreferencesController.m */; };
 		3EB3A1CC1557357C009D41A6 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB3A1CB1557357C009D41A6 /* WebKit.framework */; };
 		3EB3A1CF15573AC2009D41A6 /* WebToPng.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB3A1CE15573AC2009D41A6 /* WebToPng.m */; };
+		3EBD857F162E08B30055D83D /* creating-a-lightbox-effect.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3E7BC9F816272F3C0092BF5E /* creating-a-lightbox-effect.pdf */; };
 		3EFEA36A152EE72800F85DD9 /* sitelighter.icns in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEA369152EE72800F85DD9 /* sitelighter.icns */; };
 /* End PBXBuildFile section */
 
@@ -72,12 +65,8 @@
 		3E0480EE152ED7E500635F1F /* Site_Lighter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Site_Lighter.xcdatamodel; sourceTree = "<group>"; };
 		3E32A3EC152EDA74003890C9 /* SLSite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSite.h; sourceTree = "<group>"; };
 		3E32A3ED152EDA74003890C9 /* SLSite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSite.m; sourceTree = "<group>"; };
-		3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Green Ball.tiff"; sourceTree = "<group>"; };
-		3E32A3F8152EE0E6003890C9 /* Linkback Green.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "Linkback Green.tiff"; sourceTree = "<group>"; };
 		3E32A3FA152EE0F5003890C9 /* plus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-8.png"; sourceTree = "<group>"; };
 		3E32A3FC152EE0FC003890C9 /* minus-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minus-8.png"; sourceTree = "<group>"; };
-		3E32A3FE152EE12D003890C9 /* LinkBack.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = LinkBack.tiff; sourceTree = "<group>"; };
-		3E32A404152EE1DD003890C9 /* Play.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Play.tiff; sourceTree = "<group>"; };
 		3E7BC9F716272F3C0092BF5E /* creating a lightbox effect.pages */ = {isa = PBXFileReference; lastKnownFileType = file; path = "creating a lightbox effect.pages"; sourceTree = "<group>"; };
 		3E7BC9F816272F3C0092BF5E /* creating-a-lightbox-effect.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "creating-a-lightbox-effect.pdf"; sourceTree = "<group>"; };
 		3E7BCA04162732A70092BF5E /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
@@ -116,8 +105,6 @@
 		3E9EF99B1616003C00068856 /* browserframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browserframe.png; sourceTree = "<group>"; };
 		3E9EF9A0161606F900068856 /* SLBrowserFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBrowserFrame.h; sourceTree = "<group>"; };
 		3E9EF9A1161606F900068856 /* SLBrowserFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBrowserFrame.m; sourceTree = "<group>"; };
-		3E9EF9A31616081000068856 /* hallo-original.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hallo-original.png"; sourceTree = "<group>"; };
-		3E9EF9AB16160D9C00068856 /* hallo-thumb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hallo-thumb.png"; sourceTree = "<group>"; };
 		3E9EF9AD16160EEC00068856 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 		3E9EF9C316164E1B00068856 /* SLLeftPaneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLLeftPaneView.h; sourceTree = "<group>"; };
 		3E9EF9C416164E1B00068856 /* SLLeftPaneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLLeftPaneView.m; sourceTree = "<group>"; };
@@ -291,16 +278,10 @@
 			children = (
 				3EFEA369152EE72800F85DD9 /* sitelighter.icns */,
 				3E9EF9AD16160EEC00068856 /* test.png */,
-				3E9EF9AB16160D9C00068856 /* hallo-thumb.png */,
-				3E9EF9A31616081000068856 /* hallo-original.png */,
 				3E9EF99B1616003C00068856 /* browserframe.png */,
 				3E9EF9991615FE7A00068856 /* magic.png */,
-				3E32A404152EE1DD003890C9 /* Play.tiff */,
-				3E32A3FE152EE12D003890C9 /* LinkBack.tiff */,
 				3E32A3FC152EE0FC003890C9 /* minus-8.png */,
 				3E32A3FA152EE0F5003890C9 /* plus-8.png */,
-				3E32A3F8152EE0E6003890C9 /* Linkback Green.tiff */,
-				3E32A3F6152EE0D9003890C9 /* Green Ball.tiff */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -380,12 +361,8 @@
 				3E8B0506150CF04B00E8EDFE /* InfoPlist.strings in Resources */,
 				3E8B050C150CF04B00E8EDFE /* Credits.rtf in Resources */,
 				3E8B0512150CF04B00E8EDFE /* MainMenu.xib in Resources */,
-				3E32A3F7152EE0D9003890C9 /* Green Ball.tiff in Resources */,
-				3E32A3F9152EE0E6003890C9 /* Linkback Green.tiff in Resources */,
 				3E32A3FB152EE0F5003890C9 /* plus-8.png in Resources */,
 				3E32A3FD152EE0FC003890C9 /* minus-8.png in Resources */,
-				3E32A3FF152EE12D003890C9 /* LinkBack.tiff in Resources */,
-				3E32A405152EE1DD003890C9 /* Play.tiff in Resources */,
 				3EFEA36A152EE72800F85DD9 /* sitelighter.icns in Resources */,
 				3E8B051C150CF08C00E8EDFE /* TODO.txt in Resources */,
 				3EB3A19F1556993E009D41A6 /* sitelighterlib.rb in Resources */,
@@ -395,11 +372,8 @@
 				3EB3A1B815571581009D41A6 /* Preferences.xib in Resources */,
 				3E9EF99A1615FE7A00068856 /* magic.png in Resources */,
 				3E9EF99C1616003C00068856 /* browserframe.png in Resources */,
-				3E9EF9A41616081000068856 /* hallo-original.png in Resources */,
-				3E9EF9AC16160D9C00068856 /* hallo-thumb.png in Resources */,
+				3EBD857F162E08B30055D83D /* creating-a-lightbox-effect.pdf in Resources */,
 				3E9EF9AE16160EEC00068856 /* test.png in Resources */,
-				3E7BC9F916272F3C0092BF5E /* creating a lightbox effect.pages in Resources */,
-				3E7BC9FA16272F3C0092BF5E /* creating-a-lightbox-effect.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
