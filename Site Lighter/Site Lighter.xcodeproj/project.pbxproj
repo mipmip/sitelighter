@@ -26,9 +26,6 @@
 		3E9EF9771615EC5300068856 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E9EF9761615EC5300068856 /* QuartzCore.framework */; };
 		3E9EF97B1615ECAC00068856 /* SLBodyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF97A1615ECAC00068856 /* SLBodyView.m */; };
 		3E9EF97E1615EDEC00068856 /* SLSegmentedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF97D1615EDEC00068856 /* SLSegmentedView.m */; };
-		3E9EF9921615F6BF00068856 /* STOverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9911615F6BF00068856 /* STOverlayController.m */; };
-		3E9EF9951615F6DE00068856 /* STOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9941615F6DE00068856 /* STOverlayView.m */; };
-		3E9EF9981615F7B200068856 /* STOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9971615F7B100068856 /* STOverlayWindow.m */; };
 		3E9EF99A1615FE7A00068856 /* magic.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF9991615FE7A00068856 /* magic.png */; };
 		3E9EF99C1616003C00068856 /* browserframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E9EF99B1616003C00068856 /* browserframe.png */; };
 		3E9EF9A2161606F900068856 /* SLBrowserFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E9EF9A1161606F900068856 /* SLBrowserFrame.m */; };
@@ -95,12 +92,6 @@
 		3E9EF97A1615ECAC00068856 /* SLBodyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBodyView.m; sourceTree = "<group>"; };
 		3E9EF97C1615EDEC00068856 /* SLSegmentedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLSegmentedView.h; sourceTree = "<group>"; };
 		3E9EF97D1615EDEC00068856 /* SLSegmentedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLSegmentedView.m; sourceTree = "<group>"; };
-		3E9EF9901615F6BF00068856 /* STOverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlayController.h; sourceTree = "<group>"; };
-		3E9EF9911615F6BF00068856 /* STOverlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlayController.m; sourceTree = "<group>"; };
-		3E9EF9931615F6DE00068856 /* STOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlayView.h; sourceTree = "<group>"; };
-		3E9EF9941615F6DE00068856 /* STOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlayView.m; sourceTree = "<group>"; };
-		3E9EF9961615F7B100068856 /* STOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlayWindow.h; sourceTree = "<group>"; };
-		3E9EF9971615F7B100068856 /* STOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlayWindow.m; sourceTree = "<group>"; };
 		3E9EF9991615FE7A00068856 /* magic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magic.png; sourceTree = "<group>"; };
 		3E9EF99B1616003C00068856 /* browserframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = browserframe.png; sourceTree = "<group>"; };
 		3E9EF9A0161606F900068856 /* SLBrowserFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBrowserFrame.h; sourceTree = "<group>"; };
@@ -255,22 +246,8 @@
 				3E9EF97A1615ECAC00068856 /* SLBodyView.m */,
 				3E9EF97C1615EDEC00068856 /* SLSegmentedView.h */,
 				3E9EF97D1615EDEC00068856 /* SLSegmentedView.m */,
-				3E9EF9B7161639FF00068856 /* stoverlay */,
 			);
 			name = Views;
-			sourceTree = "<group>";
-		};
-		3E9EF9B7161639FF00068856 /* stoverlay */ = {
-			isa = PBXGroup;
-			children = (
-				3E9EF9961615F7B100068856 /* STOverlayWindow.h */,
-				3E9EF9971615F7B100068856 /* STOverlayWindow.m */,
-				3E9EF9901615F6BF00068856 /* STOverlayController.h */,
-				3E9EF9911615F6BF00068856 /* STOverlayController.m */,
-				3E9EF9931615F6DE00068856 /* STOverlayView.h */,
-				3E9EF9941615F6DE00068856 /* STOverlayView.m */,
-			);
-			name = stoverlay;
 			sourceTree = "<group>";
 		};
 		3E9EF9B916163A3A00068856 /* images */ = {
@@ -408,9 +385,6 @@
 				3EB3A1CF15573AC2009D41A6 /* WebToPng.m in Sources */,
 				3E9EF97B1615ECAC00068856 /* SLBodyView.m in Sources */,
 				3E9EF97E1615EDEC00068856 /* SLSegmentedView.m in Sources */,
-				3E9EF9921615F6BF00068856 /* STOverlayController.m in Sources */,
-				3E9EF9951615F6DE00068856 /* STOverlayView.m in Sources */,
-				3E9EF9981615F7B200068856 /* STOverlayWindow.m in Sources */,
 				3E9EF9A2161606F900068856 /* SLBrowserFrame.m in Sources */,
 				3E9EF9C516164E1B00068856 /* SLLeftPaneView.m in Sources */,
 				3E9EF9CB1616559900068856 /* SLSiteCell.m in Sources */,
@@ -472,7 +446,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Debug;
 		};
@@ -491,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.5;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.7;
 			};
 			name = Release;
 		};

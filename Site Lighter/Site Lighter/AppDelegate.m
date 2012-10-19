@@ -31,7 +31,6 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    self.overlayController = [[STOverlayController alloc] init];
     
     
     //Grab the keychain item.
@@ -46,42 +45,12 @@
 
 
 
-- (IBAction)overlay1:(id)sender {
-    if (self.overlayController.isOverlay) {
-        [self.overlayController endOverlay];
-    }
-    else {
-        [self.overlayController beginOverlayToView:self.targetView
-                                         withLabel:@"Working..."
-                                            radius:0.0
-                                            offset:0.0];
-    }
-}
-
-- (IBAction)overlay2:(id)sender {
-    if (self.overlayController.isOverlay) {
-        [self.overlayController endOverlay];
-    }
-    else {
-        [self.overlayController beginOverlayToView:self.targetView
-                                         withLabel:@"Working..."
-                                            radius:0.0
-                                              size:NSMakeSize(200.0, 100.0)];
-    }
+- (IBAction)overlay1:(id)sender
+{
+    NSLog(@"we need a new overlay here.");
 }
 
 
-- (void) tableViewSelectionDidChange:(NSNotification *)notification{
- /*
-  NSTableView* table = [notification object];
-    NSInteger selection = table.selectedRow;
-    NSArray* albums = [self.albumsArrayController arrangedObjects];
-    
-    
-    CBAlbum * album = [albums objectAtIndex:selection];
-    [[NSApp delegate] setValue:album forKey: @"selectedAlbum"];
-  */
-}
 
 -(IBAction)showPreferences:(id)sender{
     if(!self.preferencesController)
