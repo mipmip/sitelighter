@@ -28,7 +28,8 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        
+        showDebugMessages = NO;
+
         if([[NSUserDefaults standardUserDefaults] boolForKey:@"showDebugMessages"])
         {
             showDebugMessages = YES;
@@ -43,7 +44,7 @@
   
     [SLSite defaultSite];
     self.sitesTable.delegate = self;
-    showDebugMessages = NO;
+    //showDebugMessages = NO;
     
 
 }
@@ -129,8 +130,6 @@
 		[self visitSite:self];
 	}
 }
-
-
 
 
 -(NSString *) genRandStringLength: (int) len {
@@ -298,7 +297,7 @@
 
         NSLog(@"nw checking:%@",[NSString stringWithFormat:@"%@/%@",[self getLocalDir2],@"index.html"]);
 
-        //Now het path segment
+        //Now get path segment
         if([[NSFileManager defaultManager] fileExistsAtPath: [NSString stringWithFormat:@"%@/%@",[self getLocalDir2],@"index.html"] isDirectory: NO])
         {
             
@@ -306,7 +305,7 @@
             NSError *anError;
             NSString *fileText = [NSString stringWithContentsOfFile:filePath encoding:NSUTF8StringEncoding error:&anError];
             if (!fileText) {
-                NSLog(@"%@", [anError localizedDescription]);
+                NSLog(@"Error: %@", [anError localizedDescription]);
             }
             else
             {
@@ -315,7 +314,7 @@
                 NSString * search = @"<meta http-equiv=\"refresh\" content=\"0;url= ";
                 if([fileText rangeOfString:search].location == NSNotFound)
                 {
-                    NSLog(@"http-equiv not founnd:%@",fileText);
+                    NSLog(@"http-equiv not found:%@",fileText);
                     
                 }
                 else {

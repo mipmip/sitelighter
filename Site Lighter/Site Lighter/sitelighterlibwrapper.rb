@@ -63,12 +63,22 @@ if options[:action]=='download'
             rescue
             exit 2
         end
-        rescue 
+        rescue
         exit 1
     end
     
     exit 0
 end
+
+#if options[:action]=='download'
+#    begin
+#        p "download"
+#        iwc.ftpDownloadTree
+#    rescue
+#        exit 2
+#    end
+#    exit 0
+#end
 
 if options[:action]=='test'
     begin

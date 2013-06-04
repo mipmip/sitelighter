@@ -66,6 +66,7 @@ class IWebbewiController
     
 	def ftpDownloadTree
 		begin
+            p @RemoteDirectory
 			ftp=Net::FTP.new
 			ftp.connect(@FTPURL,21)
 			ftp.login(@FTPUsername,@FTPPasswd)
@@ -84,7 +85,9 @@ class IWebbewiController
 	end
     
 	def curlUpload
+        p "cd #{@localdir};pwd; find . -type f -exec curl -u #{@FTPUsername}:#{@FTPPasswd} --ftp-create-dirs -T {} ftp://#{@FTPURL}#{@RemoteDirectory}/{}"
         system("cd #{@localdir};pwd; find . -type f -exec curl -u #{@FTPUsername}:#{@FTPPasswd} --ftp-create-dirs -T {} ftp://#{@FTPURL}#{@RemoteDirectory}/{}" + ' \;')
+        
 	end
     
 	def lightify
